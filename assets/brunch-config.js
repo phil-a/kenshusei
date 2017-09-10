@@ -2,27 +2,21 @@ exports.config = {
   // See http://brunch.io/#documentation for docs.
   files: {
     javascripts: {
-      joinTo: "js/app.js"
-
-      // To use a separate vendor.js bundle, specify two files path
-      // http://brunch.io/docs/config#-files-
-      // joinTo: {
-      //   "js/app.js": /^js/,
-      //   "js/vendor.js": /^(?!js)/
-      // }
-      //
-      // To change the order of concatenation of files, explicitly mention here
-      // order: {
-      //   before: [
-      //     "vendor/js/jquery-2.1.1.js",
-      //     "vendor/js/bootstrap.min.js"
-      //   ]
-      // }
+    joinTo: {
+      'js/app.js': /(js)/,
+      'js/vendor.js': /(vendor|vendor\/now-ui-kit|node_modules).*/
+    },
+      order: {
+        after: [
+          "js/app.js",
+          "js/vendor.js"
+        ]
+      }
     },
     stylesheets: {
       joinTo: "css/app.css",
       order: {
-        after: ["priv/static/css/app.scss"] // concat app last
+        after: ["priv/static/css/app.scss", ""] // concat app last
       }
     },
     templates: {
@@ -52,11 +46,11 @@ exports.config = {
       ignore: [/vendor/]
     },
     copycat: {
-      "fonts": ["node_modules/font-awesome/fonts"]
+      "fonts": ["node_modules/font-awesome/fonts", "node_modules/now-ui-kit/assets/fonts"]
     },
     sass: {
       options: {
-        includePaths: ["node_modules/bootstrap/scss", "node_modules/font-awesome/scss"],
+        includePaths: ["node_modules/bootstrap/scss", "node_modules/font-awesome/scss", "node_modules/now-ui-kit/assets/sass"],
         precision: 8
       }
     }

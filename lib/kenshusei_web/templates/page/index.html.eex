@@ -1,18 +1,168 @@
-<div class="jumbotron">
-  <h1 class="display-3">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
-</div>
-
-<div class="card" style="width: 20rem;">
-  <img class="card-img-top img-responsive" src="https://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere <i class="fa fa-rocket" aria-hidden="true"></i></a>
-  </div>
-</div>
+<div class="wrapper">
+        <div class="page-header page-header-small">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('https://www.blendernation.com/wp-content/uploads/2013/04/Blender-Nation-Header.jpg'); transform: translate3d(0px, 0px, 0px);">
+            </div>
+            <div class="container">
+                <div class="content-center">
+                    <h1 class="title">The supreme art of war is to subdue the enemy without fighting.</h1>
+                    <div class="text-center">
+                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">Who we are?</h2>
+                        <h5 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis vestibulum tellus et faucibus. Donec eu euismod dui. Cras at aliquet ante. Proin facilisis at nulla in dignissim. Ut condimentum, leo in aliquam eleifend, nibh turpis interdum erat, et posuere justo sem nec metus. In vel ante nec quam fermentum dictum. Morbi vestibulum et nisl sed sollicitudin.</h5>
+                    </div>
+                </div>
+                <div class="separator separator-primary"></div>
+                <div class="section-story-overview">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image-container image-left" style="background-image: url('https://c.pxhere.com/photos/7a/bf/guangzhou_china_collage_night_student_university_play_singing-188039.jpg!d')">
+                                <!-- First image on the left side -->
+                                <p class="blockquote blockquote-primary">"The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable."
+                                    <br>
+                                    <br>
+                                    <small>- Sun Tzu</small>
+                                </p>
+                            </div>
+                            <!-- Second image on the left side of the article -->
+                            <div class="image-container" style="background-image: url('https://c.pxhere.com/photos/53/e8/meditation_view_sunrise_sky_peace_happy_yoga_lifestyle-1394621.jpg!d')"></div>
+                        </div>
+                        <div class="col-md-5">
+                            <!-- First image on the right side, above the article -->
+                            <div class="image-container image-right" style="background-image: url('https://ak8.picdn.net/shutterstock/videos/6708841/thumb/1.jpg')"></div>
+                            <h3>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit.
+                            </h3>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ligula sed turpis consectetur pellentesque. In sodales enim in ante tristique consequat. Vestibulum facilisis facilisis leo. Vivamus et finibus quam.
+                            </p>
+                            <p>
+                                Nulla lobortis consequat mauris. Vestibulum dignissim ullamcorper odio, in egestas diam placerat nec. Suspendisse rutrum nulla sed venenatis maximus. Sed faucibus erat pellentesque sem tristique, sit amet pretium lorem ullamcorper. In vel tellus cursus, maximus sapien non, rutrum dui.
+                            </p>
+                            <p>
+                              Donec nulla diam, pellentesque ut sollicitudin sodales, interdum ut elit. Duis nec turpis blandit, iaculis justo ac, euismod odio. Sed cursus commodo posuere. Donec porttitor porta ultrices. Donec rhoncus lacus pellentesque, dignissim sem vel, viverra lectus. Duis finibus consectetur est. Praesent iaculis suscipit nisl, a euismod ante lobortis id.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-team text-center">
+            <div class="container">
+                <h2 class="title">Meet your instructors.</h2>
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <img src="https://api.adorable.io/avatars/135/abott@adorable.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <h4 class="title">Sensei Mike</h4>
+                                <p class="category text-primary">Blackbelt</p>
+                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <img src="https://api.adorable.io/avatars/135/abott@adorable.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <h4 class="title">Sensei Joan</h4>
+                                <p class="category text-primary">Blackbelt</p>
+                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-player">
+                                <img src="https://api.adorable.io/avatars/135/abott@adorable.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <h4 class="title">Lorem Ipsum</h4>
+                                <p class="category text-primary">Blackbelt</p>
+                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-contact-us text-center">
+            <div class="container">
+                <h2 class="title">Want to find out more?</h2>
+                <p class="description">Contact us today.</p>
+                <div class="row">
+                    <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+                        <div class="input-group input-lg">
+                            <span class="input-group-addon">
+                                <i class="now-ui-icons users_circle-08"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="First Name...">
+                        </div>
+                        <div class="input-group input-lg">
+                            <span class="input-group-addon">
+                                <i class="now-ui-icons ui-1_email-85"></i>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Email...">
+                        </div>
+                        <div class="textarea-container">
+                            <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
+                        </div>
+                        <div class="send-button">
+                            <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer footer-default">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./about.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./contact">
+                                Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
+                                MIT License
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright">
+                    ©
+                    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                    <a href="http://www.kenshuseimartialarts.com" target="_blank">Kenshusei Martial Arts</a>. Coded by
+                    <a href="https://www.alekseev.ca" target="_blank">Philip Alekseev</a>.
+                </div>
+            </div>
+        </footer>
+    </div>

@@ -1,0 +1,8 @@
+/* Buttons */
+.nav-link.btn.btn-neutral {
+  transition: color 0.3;
+  color: black;
+  &:hover {
+    color: #f96332;
+  }
+}
