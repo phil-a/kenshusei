@@ -1,0 +1,5 @@
+<h2>New Form submission</h2>
+
+<%= render "form.html", Map.put(assigns, :action, form_submission_path(@conn, :create)) %>
+
+<span><%= link "Back", to: form_submission_path(@conn, :index) %></span>

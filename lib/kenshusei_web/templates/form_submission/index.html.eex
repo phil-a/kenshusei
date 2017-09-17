@@ -1,0 +1,30 @@
+<h2>Listing Form submissions</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Comment</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for form_submission <- @form_submissions do %>
+    <tr>
+      <td><%= form_submission.name %></td>
+      <td><%= form_submission.email %></td>
+      <td><%= form_submission.comment %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: form_submission_path(@conn, :show, form_submission), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: form_submission_path(@conn, :edit, form_submission), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: form_submission_path(@conn, :delete, form_submission), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Form submission", to: form_submission_path(@conn, :new) %></span>

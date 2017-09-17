@@ -1,0 +1,23 @@
+<h2>Show Form submission</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @form_submission.name %>
+  </li>
+
+  <li>
+    <strong>Email:</strong>
+    <%= @form_submission.email %>
+  </li>
+
+  <li>
+    <strong>Comment:</strong>
+    <%= @form_submission.comment %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: form_submission_path(@conn, :edit, @form_submission) %></span>
+<span><%= link "Back", to: form_submission_path(@conn, :index) %></span>

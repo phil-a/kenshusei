@@ -112,24 +112,26 @@
                 <p class="description">Contact us today.</p>
                 <div class="row">
                     <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+                        <%= form_for @form_submission_changeset, form_submission_path(@conn, :create), fn f -> %> 
                         <div class="input-group input-lg">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons users_circle-08"></i>
                             </span>
-                            <input type="text" class="form-control" placeholder="First Name...">
+                            <%= text_input f, :name, [type: "text", class: "form-control", placeholder: "First Name..."] %>
                         </div>
                         <div class="input-group input-lg">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons ui-1_email-85"></i>
                             </span>
-                            <input type="text" class="form-control" placeholder="Email...">
+                            <%= text_input f, :email, [type: "text", class: "form-control", placeholder: "Email..."] %>
                         </div>
                         <div class="textarea-container">
-                            <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
+                            <%= textarea f, :comment, [class: "form-control", rows: "4", cols: "80", placeholder: "Type a message..."] %>
                         </div>
                         <div class="send-button">
-                            <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a>
+                            <%= submit "Send Message", [class: "btn btn-primary btn-round btn-block btn-lg"] %>
                         </div>
+                        <% end %>
                     </div>
                 </div>
             </div>
