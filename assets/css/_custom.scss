@@ -1,3 +1,9 @@
+/* Header Height */
+.page-header.page-header-small {
+  height: 100vh;
+  max-height: 1000px;
+}
+
 /* Buttons */
 .nav-link.btn.btn-neutral {
   transition: color 0.3;
@@ -5,4 +11,14 @@
   &:hover {
     color: #f96332;
   }
+}
+
+/* Background */
+.section {
+  background-image: "../black_scales_@2X.png";  
+}
+
+/* Images */
+.image-container {
+  background-size: cover;
 }

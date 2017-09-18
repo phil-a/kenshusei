@@ -28,20 +28,20 @@
             <div class="collapse navbar-collapse justify-content-end" data-nav-image="./assets/img/blurred-image-1.jpg">
               <ul class="navbar-nav">
                   <li class="nav-item">
-                      <a class="nav-link" href="./about.html" onclick="scrollToDownload()">
-                          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+                      <a class="nav-link" href="/about" onclick="scrollToDownload()">
+                          <i class="now-ui-icons travel_info"></i>
                           <p>About Us</p>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="./schedule.html" target="_blank">
-                          <i class="now-ui-icons files_paper"></i>
+                      <a class="nav-link" href="/schedule" target="_blank">
+                          <i class="now-ui-icons ui-1_calendar-60"></i>
                           <p>Schedule</p>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link btn btn-neutral" href="./contact.html" target="_blank">
-                          <i class="now-ui-icons arrows-1_share-66"></i>
+                      <a id="contact-button" class="nav-link btn btn-neutral" href="/#section-contact-us">
+                          <i class="now-ui-icons ui-1_email-85"></i>
                           <p>Contact Us</p>
                       </a>
                   </li>

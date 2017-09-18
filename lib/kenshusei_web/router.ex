@@ -17,6 +17,8 @@ defmodule KenshuseiWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/about", PageController, :about    
+    get "/schedule", PageController, :schedule
     resources "/form_submissions", FormSubmissionController, only: [:create]
   end
 

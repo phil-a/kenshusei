@@ -8,4 +8,12 @@ defmodule KenshuseiWeb.PageController do
     form_submission_changeset = Contact.change_form_submission(%FormSubmission{})
     render conn, "index.html", form_submission_changeset: form_submission_changeset
   end
+
+  def about(conn, _params) do
+    render conn, "about.html"
+  end
+
+  def schedule(conn, _params) do
+    render conn, "schedule.html"
+  end
 end

@@ -33,7 +33,7 @@
                         <div class="col-md-6">
                             <div class="image-container image-left" style="background-image: url('https://c.pxhere.com/photos/7a/bf/guangzhou_china_collage_night_student_university_play_singing-188039.jpg!d')">
                                 <!-- First image on the left side -->
-                                <p class="blockquote blockquote-primary">"The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him; not on the chance of his not attacking, but rather on the fact that we have made our position unassailable."
+                                <p class="blockquote blockquote-primary">"The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him."
                                     <br>
                                     <br>
                                     <small>- Sun Tzu</small>
@@ -106,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div class="section section-contact-us text-center">
+        <div id="section-contact-us" class="section section-contact-us text-center">
             <div class="container">
                 <h2 class="title">Want to find out more?</h2>
                 <p class="description">Contact us today.</p>
@@ -136,35 +136,5 @@
                 </div>
             </div>
         </div>
-        <footer class="footer footer-default">
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./about.html">
-                                About Us
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./contact">
-                                Contact
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                                MIT License
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="copyright">
-                    ©
-                    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script>
-                        document.write(new Date().getFullYear())
-                    </script>
-                    <a href="http://www.kenshuseimartialarts.com" target="_blank">Kenshusei Martial Arts</a>. Coded by
-                    <a href="https://www.alekseev.ca" target="_blank">Philip Alekseev</a>.
-                </div>
-            </div>
-        </footer>
+        <%= render "_footer.html" %>
     </div>
