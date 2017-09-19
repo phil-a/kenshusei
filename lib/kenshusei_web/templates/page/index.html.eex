@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div id="index-page" class="wrapper">
         <div class="page-header page-header-small">
             <div class="page-header-image" data-parallax="true" style="background-image: url('https://www.blendernation.com/wp-content/uploads/2013/04/Blender-Nation-Header.jpg'); transform: translate3d(0px, 0px, 0px);">
             </div>

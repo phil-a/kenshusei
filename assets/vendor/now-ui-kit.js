@@ -107,7 +107,7 @@ $(window).on('resize', function() {
 $(document).on('click', '.navbar-toggler', function() {
     $toggle = $(this);
 
-    if (nowuiKit.misc.navbar_menu_visible == 1) {
+    if (nowuiKit.misc.navbar_menu_visible == 2) {
         $('html').removeClass('nav-open');
         nowuiKit.misc.navbar_menu_visible = 0;
         $('#bodyClick').remove();

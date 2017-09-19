@@ -3,20 +3,32 @@ exports.config = {
   files: {
     javascripts: {
     joinTo: {
-      'js/app.js': /(js)/,
-      'js/vendor.js': /(vendor|vendor\/now-ui-kit|node_modules).*/
+      "js/app.js": ["js/app.js"],
+      "js/jquery.3.2.1.min.js": ["vendor/core/jquery.3.2.1.min.js"],      
+      "js/now-ui-kit.js": ["vendor/now-ui-kit.js"],
+      "js/bootstrap.min.js": ["vendor/core/bootstrap.min.js"],
+      "js/popper.min.js": ["vendor/core/popper.min.js"],
+      "js/bootstrap-switch.js": ["vendor/plugins/bootstrap-switch.js"],
+      "js/bootstrap-datepicker.js": ["vendor/plugins/bootstrap-datepicker.js"],
+      "js/jquery.sharrre.js": ["vendor/plugins/jquery.sharrre.js"],
+      "js/nouislider.min.js": ["vendor/plugins/nouislider.min.js"]
     },
       order: {
         after: [
           "js/app.js",
-          "js/vendor.js"
+          "js/now-ui-kit.js"
         ]
       }
     },
     stylesheets: {
-      joinTo: "css/app.css",
+      joinTo: {
+        "css/app.css": ["css/app.scss"],
+        "css/bootstrap.min.css": ["vendor/core/bootstrap.min.css"],
+        "css/demo.css": ["vendor/core/demo.css"],
+        "css/now-ui-kit.css": ["vendor/now-ui-kit.css"],
+      },
       order: {
-        after: ["priv/static/css/app.scss", ""] // concat app last
+        after: ["priv/static/css/app.css", ""] // concat app last
       }
     },
     templates: {
@@ -46,7 +58,7 @@ exports.config = {
       ignore: [/vendor/]
     },
     copycat: {
-      "fonts": ["node_modules/font-awesome/fonts", "node_modules/now-ui-kit/assets/fonts"]
+      "fonts": ["node_modules/font-awesome/fonts", "static/fonts"]
     },
     sass: {
       options: {
