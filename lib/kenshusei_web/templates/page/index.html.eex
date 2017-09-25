@@ -5,25 +5,21 @@
             <div class="container">
                 <div class="content-center">
                     <h1 class="title">The supreme art of war is to subdue the enemy without fighting.</h1>
-                    <div class="text-center">
-                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                    </div>
+                    <img style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
                 </div>
             </div>
         </div>
+        <div class="gold-gradient"></div>
         <div class="section section-about-us">
+
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Who we are?</h2>
+                        <div class="non-semantic-protector"> 
+                            <h1 class="ribbon">
+                                <strong class="ribbon-content">Who we are?</strong>
+                            </h1>
+                        </div>
                         <h5 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis vestibulum tellus et faucibus. Donec eu euismod dui. Cras at aliquet ante. Proin facilisis at nulla in dignissim. Ut condimentum, leo in aliquam eleifend, nibh turpis interdum erat, et posuere justo sem nec metus. In vel ante nec quam fermentum dictum. Morbi vestibulum et nisl sed sollicitudin.</h5>
                     </div>
                 </div>
@@ -62,14 +58,19 @@
                 </div>
             </div>
         </div>
+        <div class="gold-gradient"></div>
         <div class="section section-team text-center">
             <div class="container">
-                <h2 class="title">Meet your instructors.</h2>
+                                        <div class="non-semantic-protector"> 
+                            <h1 class="ribbon">
+                                <strong class="ribbon-content">Your instructors</strong>
+                            </h1>
+                        </div>
                 <div class="team">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="https://api.adorable.io/avatars/135/abott@adorable.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                                 <h4 class="title">Sensei Mike</h4>
                                 <p class="category text-primary">Blackbelt</p>
                                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
@@ -81,7 +82,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="https://api.adorable.io/avatars/135/abott@adorable.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                                 <h4 class="title">Sensei Joan</h4>
                                 <p class="category text-primary">Blackbelt</p>
                                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
@@ -92,7 +93,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="https://api.adorable.io/avatars/135/abott@adorable.png" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
                                 <h4 class="title">Lorem Ipsum</h4>
                                 <p class="category text-primary">Blackbelt</p>
                                 <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
@@ -106,9 +107,11 @@
                 </div>
             </div>
         </div>
+        <div class="gold-gradient"></div>
         <div id="section-contact-us" class="section section-contact-us text-center">
             <div class="container">
                 <h2 class="title">Want to find out more?</h2>
+                <a class="kungfu btn btn-primary btn-simple" style="font-size: 1.5rem;" href="tel:9057607679">905-760-7679</a>
                 <p class="description">Contact us today.</p>
                 <div class="row">
                     <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
@@ -136,5 +139,232 @@
                 </div>
             </div>
         </div>
+    
+    <div id="google-maps"></div>
+        <div class="gold-gradient"></div>
         <%= render "_footer.html" %>
     </div>
+
+    <script>
+      var map;
+      function initMap() {
+        var kenshuseiLatLng = {lat: 43.8101378, lng: -79.5327675}
+
+        map = new google.maps.Map(document.getElementById('google-maps'), {
+          center: kenshuseiLatLng,
+          zoom: 15,
+          styles: [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.country",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.locality",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#181818"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1b1b1b"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#2c2c2c"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#8a8a8a"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#373737"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#3c3c3c"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway.controlled_access",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#4e4e4e"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#3d3d3d"
+      }
+    ]
+  }
+]
+        });
+
+            var contentString = 
+            `<div id="content">
+                <div id="siteNotice"></div>
+            <h3 id="firstHeading" class="firstHeading">Kenshusei Martial Arts</h3>
+            <div id="bodyContent"><p>644 Millway Ave, Concord, ON L4K 4H4<br/>(905) 760-7679</p></div>
+            </div>`;
+            
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+            var marker = new google.maps.Marker({
+          position: kenshuseiLatLng,
+          map: map,
+          title: 'Kenshusei Martials Arts'
+        });
+
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+
+
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=APIKEY&callback=initMap"
+    async defer></script>

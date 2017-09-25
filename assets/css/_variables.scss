@@ -1,7 +1,16 @@
+@font-face{
+	font-family: 'cezanne';
+	src: url(../fonts/cezanne.ttf) format('truetype');
+}
+
 $primary: #303030;
 $primary-light: #595959;
 $primary-dark: #070707;
 
-$secondary: #b7a64c;
-$secondary-light: #ebd77b;
-$secondary-dark: #85771d;
+$secondary: #ba9e4f;
+$secondary-light: #eecf7d;
+$secondary-dark: #887022;
+
+$text: #DEDEDE;
+$text-light: #EAEAEA;
+$text-dark: #A9A9A9;
