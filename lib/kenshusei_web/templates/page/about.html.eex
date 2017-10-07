@@ -1,6 +1,6 @@
     <div id="about-page">
         <div class="page-header page-header-small" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/nature-outdoor-horizon.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/art-of-war-hero.jpeg") %>'); transform: translate3d(0px, 0px, 0px);">
             </div>
             <div class="container">
                 <div class="content-center">
