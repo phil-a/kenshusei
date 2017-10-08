@@ -1,11 +1,12 @@
 <div id="index-page" class="wrapper">
         <div class="page-header page-header-small">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('https://www.blendernation.com/wp-content/uploads/2013/04/Blender-Nation-Header.jpg'); transform: translate3d(0px, 0px, 0px);">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/dojo.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
             </div>
             <div class="container">
                 <div class="content-center">
-                    <h1 class="title">The supreme art of war is to subdue the enemy without fighting.</h1>
+                    <h1 class="title kungfu">KENSHUSEI MARTIAL ARTS</h1>
                     <img style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
+                    <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
                 </div>
             </div>
         </div>
@@ -20,7 +21,7 @@
                                 <strong class="ribbon-content">Who we are?</strong>
                             </h1>
                         </div>
-                        <h5 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis vestibulum tellus et faucibus. Donec eu euismod dui. Cras at aliquet ante. Proin facilisis at nulla in dignissim. Ut condimentum, leo in aliquam eleifend, nibh turpis interdum erat, et posuere justo sem nec metus. In vel ante nec quam fermentum dictum. Morbi vestibulum et nisl sed sollicitudin.</h5>
+                        <h5 class="description">Kenshusei Martial Arts is a traditional dojo where one comes to practice the refinement of the body, spirit and behavior. You train not only to defend yourself from others, but also to confront your own worst enemy. Ther person you see in the mirror when you wake.</h5>
                     </div>
                 </div>
                 <div class="separator separator-primary"></div>
@@ -42,16 +43,18 @@
                             <!-- First image on the right side, above the article -->
                             <div class="image-container image-right" style="background-image: url('https://ak8.picdn.net/shutterstock/videos/6708841/thumb/1.jpg')"></div>
                             <h3>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit.
+                              <strong>Budo</strong> - The way of the warrior
                             </h3>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ligula sed turpis consectetur pellentesque. In sodales enim in ante tristique consequat. Vestibulum facilisis facilisis leo. Vivamus et finibus quam.
+                              <strong>Bu</strong> means to "stop the attack" and suggests the best way to do so is to live in peace, and defend that peace.
+                              <br>
+                              <strong>Do</strong> suggests a path that takes one where they want to go. In otherwords, self-cultivation.
                             </p>
                             <p>
-                                Nulla lobortis consequat mauris. Vestibulum dignissim ullamcorper odio, in egestas diam placerat nec. Suspendisse rutrum nulla sed venenatis maximus. Sed faucibus erat pellentesque sem tristique, sit amet pretium lorem ullamcorper. In vel tellus cursus, maximus sapien non, rutrum dui.
+                                At Kenshusei, we practice budo. Unlike many other modern martial arts schools, we do not practice some form of sport boxing or wrestling. Your environment is not a gym or weight room, but instead a place you are supposed to <strong>honour and respect</strong>. The dojo is a battlefield on which you will confront your worst enemy and the person who has caused you the most difficulty in your life. You.
                             </p>
                             <p>
-                              Donec nulla diam, pellentesque ut sollicitudin sodales, interdum ut elit. Duis nec turpis blandit, iaculis justo ac, euismod odio. Sed cursus commodo posuere. Donec porttitor porta ultrices. Donec rhoncus lacus pellentesque, dignissim sem vel, viverra lectus. Duis finibus consectetur est. Praesent iaculis suscipit nisl, a euismod ante lobortis id.
+                              Remember that you will be training in martial arts, not flower arranging. In a good dojo, your teachers will push you to your limits, and at times their will be physical and psychological discomfort. By reaching and surpassing this threshold, you will discover your true self and realize your potential.
                             </p>
                         </div>
                     </div>
@@ -59,13 +62,13 @@
             </div>
         </div>
         <div class="gold-gradient"></div>
-        <div class="section section-team text-center">
+        <div class="section wood fixed section-team text-center">
             <div class="container">
-                                        <div class="non-semantic-protector"> 
-                            <h1 class="ribbon">
-                                <strong class="ribbon-content">Your instructors</strong>
-                            </h1>
-                        </div>
+                  <div id="float-ribbon" class="non-semantic-protector"> 
+                      <h1 class="ribbon">
+                          <strong class="ribbon-content">Your instructors</strong>
+                      </h1>
+                  </div>
                 <div class="team">
                     <div class="row">
                         <div class="col-md-4">

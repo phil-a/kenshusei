@@ -36,6 +36,10 @@ h2, h3, h4 {
 
 p {
   color: $text-dark;
+
+  strong {
+    color: $text;
+  }
 }
 
 .btn p {
@@ -133,12 +137,56 @@ div.separator.separator-primary {
 
 /* Lists */
 [data-background-color="orange"] {
-  background-color: $secondary;
+  background-color: $primary;
+}
+
+.nav-tabs>.nav-item>.nav-link {
+    color: $primary-light !important;
+    margin: 0;
+    margin-right: 5px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 11px 23px;
+    line-height: 1.5;
+}
+
+.nav-tabs>.nav-item>.nav-link.active {
+  color: white !important;
+  background-color: $primary;
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Background */
 .section {
-  background-image: url("../images/classy_fabric.png");
+  background-color: $primary;
+  background-repeat: repeat;
+}
+
+.section.fixed {
+  background-attachment: fixed;  
+}
+
+.section.wood {
+  background-image: url("../images/dark_wood.png");
+  background-repeat: repeat;
+}
+
+.section.monument {
+  background-image: url("../images/monument.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section.dark {
+  background-image: url("../images/classy_fabric_dark.png");
+  background-repeat: repeat;
+}
+
+.section.light {
+  background-image: url("../images/classy_fabric_light.png");
   background-repeat: repeat;
 }
 
@@ -154,19 +202,28 @@ div.separator.separator-primary {
   }
 }
 
-.page-header[filter-color="gold"] {
-  background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), black);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), black);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), black);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), black);
-  /* Standard syntax */
+/* Cards */
+.card {
+  .info-title {
+    color: $primary;
+  }
+  .description {
+    color: $primary;
+  }
 }
 
+.page-header[filter-color="orange"] {
+  background: rgba(44, 44, 44, 0.2);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg, rgba($secondary, 0.4), $primary-light);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg, rgba($secondary, 0.4), $primary-light);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg, rgba($secondary, 0.4), $primary-light);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, rgba($secondary, 0.4), $primary-light);
+  /* Standard syntax */
+}
 
 .gold-gradient {
 	height:2px !important;
@@ -188,7 +245,6 @@ div.separator.separator-primary {
 	/* W3C Standard */
 	background: repeating-linear-gradient(90deg, #472819 0%,#472819 2%, #d99e4c 23%, #a87b32 29%, #865c25 33%, #e2b566 61%, #efdf80 66%, #9f7c3c 79%, #2c1b14 95%, #2c1b14 100%);
 }
-
 
 
 .non-semantic-protector { position: relative; z-index: 1; }

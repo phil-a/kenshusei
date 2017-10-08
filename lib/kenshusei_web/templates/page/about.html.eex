@@ -5,43 +5,81 @@
             <div class="container">
                 <div class="content-center">
                     <div class="photo-container">
-                        <img src="http://via.placeholder.com/100x100" alt="">
+                        <img style="max-width: 200px;" src="<%= static_path(@conn, "/images/zen-circle-white.png") %>" alt="">
                     </div>
-                    <h3 class="title">Lorem Ipsum</h3>
-                    <p class="category">Lorem</p>
-                    <div class="content">
-                        <div class="social-description">
-                            <h2>Lorem</h2>
-                            <p>Ipsum</p>
-                        </div>
-                        <div class="social-description">
-                            <h2>Lorem</h2>
-                            <p>Ipsum</p>
-                        </div>
-                    </div>
+                    <h3 class="title">Shu Sho Ichi Nyo</h3>
+                    <p class="category">- Practice and enlightenment are not two.</p>
                 </div>
             </div>
         </div>
         <div class="gold-gradient"></div>
-        <div class="section">
-            <div class="container">
-                <h3 class="title text-center">About our values</h3>
-                <h5 class="description text-center">Aliquam tincidunt, lectus vel porta pulvinar, nibh ligula molestie urna, et dapibus ex ligula non nibh. Pellentesque mi dui, cursus feugiat turpis in, commodo sagittis felis.</h5>
-                <div class="row">
-                    <div class="col-md-6 ml-auto mr-auto">
-                        <h4 class="title text-center">Our disciplines</h4>
+        <div id="our-values" class="section">
+        <div class="container">
+                <div class="non-semantic-protector"> 
+                      <h1 class="ribbon">
+                          <strong class="ribbon-content">Our Values</strong>
+                      </h1>
+                  </div>
+                <h5 class="description text-center">3 Pillars of School Strength -  Forging of Spirit:</h5>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="<%= static_path(@conn, "/images/pillar1.jpg") %>" class="rounded" alt="">
+                                </div>
+                                <div class="info text-center">
+                                    <h4 class="info-title">Respect</h4>
+                                    <p class="description">Holding the teacher in high estimation, 
+                                        showing gratitude for Martial Artists who have sacrificed for the benefit of unknown future generations, and
+                                        encouraging and empower junior ranked students.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="<%= static_path(@conn, "/images/pillar3.jpg") %>" class="rounded" alt="">
+                                </div>
+                                <div class="info text-center">
+                                    <h4 class="info-title">Integrity</h4>
+                                    <p class="description">Adherence to a strict code of values and morals. A person who is trustworthy, loyal and virtuous.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="<%= static_path(@conn, "/images/pillar2.jpg") %>" class="rounded" alt="">
+                                </div>
+                                <div class="info text-center">
+                                    <h4 class="info-title">Honour</h4>
+                                    <p class="description">A privilege bestowed upon those with particular virtues, such as bravery, humility, integrity; on the basis of merit, not entitlement. </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+        </div>
+
+    <div class="section monument" style="height: 900px;"></div>
+
+            <div id="our-disciplines" class="section">
+                <div class="non-semantic-protector"> 
+                      <h1 class="ribbon">
+                          <strong class="ribbon-content">Our Disciplines</strong>
+                      </h1>
+                  </div>
 
                 <div class="container">
                     <div class="row">
                         
-                        <div class="col-md-10 col-lg-8 col-xl-8 ml-auto mr-auto">
-                            <p class="category text-center">Aliquam tincidunt, lectus vel porta pulvinar, nibh ligula molestie urna, et dapibus ex ligula non nibh.</p>
+                        <div class="col-md-10 col-lg-12 col-xl-12 ml-auto mr-auto">
+                            <p class="category text-center">Select a discipline to learn more:</p>
                             <!-- Tabs with Background on Card -->
-                            <div class="card">
-                                <ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
+                            <div class="">
+                                <ul class="nav nav-tabs justify-content-center" role="tablist" data-background-color="orange">
                                     <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#home1" role="tab" aria-expanded="true">Shaolin Kempo Karate</a>
+                                        <a class="nav-link active" data-toggle="tab" href="#home1" role="tab" aria-expanded="true">Kempo Karate</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" href="#profile1" role="tab" aria-expanded="false">Kung Fu</a>
@@ -61,12 +99,12 @@
                                             <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
                                             <div class="row collections">
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kempo1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kempo2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kempo3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kempo4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -74,12 +112,12 @@
                                             <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
                                             <div class="row collections">
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kungfu1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kungfu2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kungfu3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/kungfu4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -87,12 +125,12 @@
                                             <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
                                             <div class="row collections">
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/aiki1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/aiki2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/aiki3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/aiki4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -101,12 +139,12 @@
                                                 "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at."
                                             <div class="row collections">
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/taichi1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/taichi2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
-                                                    <img src="http://via.placeholder.com/350x200" alt="" class="img-raised" style="width: 100%; height: 200px; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/taichi3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
+                                                    <img src="<%= static_path(@conn, "/images/taichi4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
                                                 </div>
                                             </div>
                                             </p>
@@ -116,11 +154,9 @@
                             </div>
                             <!-- End Tabs on plain Card -->
                         </div>
-                    </div>
+                    </div>            
                 </div>
-            
-
-                </div>
+            </div>
             </div>
         </div>
     </div>    

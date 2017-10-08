@@ -28,7 +28,7 @@ exports.config = {
         "css/now-ui-kit.css": ["vendor/now-ui-kit.css"],
       },
       order: {
-        after: ["priv/static/css/app.css", ""] // concat app last
+        after: ["css/app.css", "css/now-ui-kit.css"] // concat app last
       }
     },
     templates: {

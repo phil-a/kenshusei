@@ -1,0 +1,50 @@
+#about-page {
+
+    #our-values {
+        .card {
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, .2);
+            border: 2px solid $primary-light;
+            transition: all 0.2s ease-in;
+            background: $primary;
+
+            .info-title {
+                transition: color 0.2s ease-in;
+                color: $text;
+            }
+
+            .description {
+                padding: 0 15px;
+                margin-bottom: 30px;
+                color: $text-light;
+            }
+
+            img {
+                transition: all 0.2s ease-in;
+                opacity: 0.5;
+                filter: alpha(opacity=50); /* For IE8 and earlier */
+            }
+
+            &:hover {
+                box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.3);
+                border: 2px solid $secondary-light;        
+                .info-title {
+                    color: $secondary-light;
+                }
+                img {
+                    opacity: 1;
+                    filter: alpha(opacity=100); /* For IE8 and earlier */
+                }
+              }
+        }
+    }
+
+    #our-disciplines {
+        .card {
+            background: $primary;
+        }
+
+        .card .card-body p {
+            color: $text;
+        }
+    }
+}
