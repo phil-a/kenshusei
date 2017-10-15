@@ -3,7 +3,8 @@ exports.config = {
   files: {
     javascripts: {
     joinTo: {
-      "js/app.js": ["js/app.js"],
+      "js/app.js": /^js\//,
+      "js/vendor.js": /^node_modules\//,
       "js/jquery.3.2.1.min.js": ["vendor/core/jquery.3.2.1.min.js"],      
       "js/now-ui-kit.js": ["vendor/now-ui-kit.js"],
       "js/bootstrap.min.js": ["vendor/core/bootstrap.min.js"],
@@ -11,7 +12,8 @@ exports.config = {
       "js/bootstrap-switch.js": ["vendor/plugins/bootstrap-switch.js"],
       "js/bootstrap-datepicker.js": ["vendor/plugins/bootstrap-datepicker.js"],
       "js/jquery.sharrre.js": ["vendor/plugins/jquery.sharrre.js"],
-      "js/nouislider.min.js": ["vendor/plugins/nouislider.min.js"]
+      "js/nouislider.min.js": ["vendor/plugins/nouislider.min.js"],
+      "js/rellax.min.js": ["vendor/core/rellax.min.js"],
     },
       order: {
         after: [
@@ -76,12 +78,5 @@ exports.config = {
 
   npm: {
     enabled: true,
-    globals: {
-      $: 'jquery',
-      jQuery: 'jquery',
-      Tether: 'tether',
-      Popper: 'popper.js',
-      bootstrap: 'bootstrap'
-    }
   }
 };

@@ -1,6 +1,6 @@
     <div id="about-page">
         <div class="page-header page-header-small" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/art-of-war-hero.jpeg") %>'); transform: translate3d(0px, 0px, 0px);">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/old-city.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
             </div>
             <div class="container">
                 <div class="content-center">
@@ -61,7 +61,31 @@
                 </div>
         </div>
 
-    <div class="section monument" style="height: 900px;"></div>
+    <div class="section monument" style="height: 900px;">
+        <div class="container center">
+                  <div id="float-ribbon" class="non-semantic-protector"> 
+                      <h1 class="ribbon">
+                          <strong class="ribbon-content">Our Sensei</strong>
+                      </h1>
+                  </div>
+                <div class="team">
+                    <div class="row">
+                        <div class="text-center ml-auto mr-auto col-md-4">
+                            <div class="team-player">
+                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+                                <h4 class="title">Sensei Michael Rybyj</h4>
+                                <p class="category text-primary">Blackbelt</p>
+                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
+                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
 
             <div id="our-disciplines" class="section">
                 <div class="non-semantic-protector"> 

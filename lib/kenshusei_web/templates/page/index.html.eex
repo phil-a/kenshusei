@@ -2,10 +2,10 @@
         <div class="page-header page-header-small">
             <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/dojo.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
             </div>
-            <div class="container">
+            <div class="header-content container">
                 <div class="content-center">
                     <h1 class="title kungfu">KENSHUSEI MARTIAL ARTS</h1>
-                    <img style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
+                    <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
                     <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
                 </div>
             </div>
@@ -28,16 +28,16 @@
                 <div class="section-story-overview">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="image-container image-left" style="background-image: url('https://c.pxhere.com/photos/7a/bf/guangzhou_china_collage_night_student_university_play_singing-188039.jpg!d')">
+                            <div class="image-container image-left" style="background-image: url('<%= static_path(@conn, "/images/old-school.jpg") %>')">
                                 <!-- First image on the left side -->
-                                <p class="blockquote blockquote-primary">"The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him."
+                                <p style="background-color: #303030;" class="blockquote blockquote-primary rellax" data-rellax-speed="-2" data-rellax-percentage="0.5">"The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him."
                                     <br>
                                     <br>
                                     <small>- Sun Tzu</small>
                                 </p>
                             </div>
                             <!-- Second image on the left side of the article -->
-                            <div class="image-container" style="background-image: url('https://c.pxhere.com/photos/53/e8/meditation_view_sunrise_sky_peace_happy_yoga_lifestyle-1394621.jpg!d')"></div>
+                            <div class="image-container portrait" style="background-image: url('<%= static_path(@conn, "/images/break.jpg") %>')"></div>
                         </div>
                         <div class="col-md-5">
                             <!-- First image on the right side, above the article -->
@@ -62,54 +62,74 @@
             </div>
         </div>
         <div class="gold-gradient"></div>
-        <div class="section wood fixed section-team text-center">
-            <div class="container">
-                  <div id="float-ribbon" class="non-semantic-protector"> 
-                      <h1 class="ribbon">
-                          <strong class="ribbon-content">Your instructors</strong>
-                      </h1>
-                  </div>
-                <div class="team">
+<div class="section fixed wood testimonials-2">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="team-player">
-                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Sensei Mike</h4>
-                                <p class="category text-primary">Blackbelt</p>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-player">
-                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Sensei Joan</h4>
-                                <p class="category text-primary">Blackbelt</p>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-player">
-                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Lorem Ipsum</h4>
-                                <p class="category text-primary">Blackbelt</p>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-google-plus"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-youtube-play"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+                        <div class="col-md-12">
+                            <div id="carouselExampleIndicators2" class="carousel slide">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="1" class=""></li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="2" class=""></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item justify-content-center active">
+                                        <div class="card card-testimonial card-plain">
+                                            <div class="card-avatar">
+                                              <img class="img rounded" src="<%= static_path(@conn, "/images/quote.png") %>">
+                                            </div>
+                                            <div class="card-block">
+                                                <h5 class="card-description">"Previously my sons were  placed in another local Karate school but those classes often had more than 20 young children being taught by only one senior student. Those classes provided very poor guidance to the students and little discipline. At Kenshusei, the personal and individual attention devoted to my children's learning is reflected in their noticeable progress."
+                                                </h5>                                                
+                                                <h3 class="card-title">Raphael Sumabat</h3>
+                                                <div class="card-footer">
+                                                    <h6 class="category text-primary">Parent of student</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item justify-content-center">
+                                        <div class="card card-testimonial card-plain">
+                                            <div class="card-avatar">
+                                              <img class="img rounded" src="<%= static_path(@conn, "/images/quote.png") %>">
+                                            </div>
+                                            <div class="card-block">
+                                                <h5 class="card-description">"In a short period of time at Kenshusei, it was apparent that they [our children] had learned more discipline, self control, new techniques, and have become much more dedicated about attending classes. The strong motivation in the classes has given them increased self confidence, allowing them to achieve their goals as students more quickly."
+                                                </h5>
+                                                <h3 class="card-title">Massimo Lanna & Paola Braybrook</h3>
+                                                <div class="card-footer">
+                                                    <h6 class="category text-primary">Proud parents</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                      <div class="carousel-item justify-content-center">
+                                        <div class="card card-testimonial card-plain">
+                                            <div class="card-avatar">
+                                              <img class="img rounded" src="<%= static_path(@conn, "/images/quote.png") %>">
+                                            </div>
+                                            <div class="card-block">
+                                                <h5 class="card-description">"The awareness that I have acquired through my training is an invaluable tool - both on the aircraft, and during my stays in foreign cities. When asked by co-workers, "Have You ever had to use your martial arts?" -- (and I know that these people are thinking kicks and punches), I tell them that I use it every day, just as you once told me years ago. How unfortunate that more people don't understand the true essence of the Martial Arts!
+                                                </h5>
+                                                <h3 class="card-title">Joan Larkins</h3>
+                                                <div class="card-footer">
+                                                    <h6 class="category text-primary">Flight attendant with Air Canada</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                    <i class="now-ui-icons arrows-1_minimal-left"></i>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                    <i class="now-ui-icons arrows-1_minimal-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <div class="gold-gradient"></div>
         <div id="section-contact-us" class="section section-contact-us text-center">
             <div class="container">
@@ -145,7 +165,6 @@
     
     <div id="google-maps"></div>
         <div class="gold-gradient"></div>
-        <%= render "_footer.html" %>
     </div>
 
   <script type="text/javascript">

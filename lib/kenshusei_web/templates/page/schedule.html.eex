@@ -1,7 +1,7 @@
 
     <div id="schedule-page">
-        <div class="page-header page-header-small" filter-color="gold">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('https://www.blendernation.com/wp-content/uploads/2013/04/Blender-Nation-Header.jpg'); transform: translate3d(0px, 0px, 0px);">
+        <div class="page-header page-header-small" filter-color="orange">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/sun-tzu.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
             </div>
             <div class="container">
                 <div class="content-center">
@@ -16,13 +16,10 @@
         <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="schedule-pdf-wrapper">
+                    <div class="schedule-pdf-wrapper rellax" data-rellax-speed="2">
                         <iframe src="https://s3-us-west-2.amazonaws.com/kenshusei-martial-arts/Zen_Schedule.pdf" style="margin:auto;" frameborder="0"></iframe>
                     </div> 
                 </div>
             </div>
         </div>
     </div>
-
-
-<%= render "_footer.html" %>

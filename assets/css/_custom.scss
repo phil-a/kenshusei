@@ -21,8 +21,19 @@ a.navbar-brand {
   }
 }
 
+/* Footer */
+footer.footer.footer-default {
+  background-color: $primary;
+  color: $text;
+}
+
+.footer ul li a {
+  color: $text;
+}
+
 /* Text */
 .kungfu {
+  color: $secondary;
   font-family: 'cezanne';
 }
 
@@ -35,7 +46,7 @@ h2, h3, h4 {
 }
 
 p {
-  color: $text-dark;
+  color: white;
 
   strong {
     color: $text;
@@ -162,7 +173,6 @@ div.separator.separator-primary {
 /* Background */
 .section {
   background-color: $primary;
-  background-repeat: repeat;
 }
 
 .section.fixed {
@@ -298,6 +308,56 @@ div.separator.separator-primary {
   border-width: 1em 1em 0 0;
  }
 
+ .primary-ribbon {
+  -webkit-transition: width 1s; /* Safari */
+  transition: width 1s;
+  font-size: 20px !important;
+  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+  width: 50%;
+     
+  position: relative;
+  background: $primary-light;
+  color: $text;
+  text-align: center;
+  padding: 1em 2em; /* Adjust to suit */
+  margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ }
+ .primary-ribbon:before, .primary-ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid $primary;
+  z-index: -1;
+ }
+ .primary-ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+ }
+ .primary-ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+ }
+ .primary-ribbon .ribbon-content:before, .primary-ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: $primary-dark transparent transparent transparent;
+  bottom: -1em;
+ }
+ .primary-ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+ }
+ .primary-ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+ }
+ 
+
 
  #google-maps {
     width: 100%;
@@ -314,4 +374,146 @@ div.separator.separator-primary {
   #mapBody p {
     color: $primary;
   }
+}
+
+[class*="testimonials-"],
+[class*="contactus-"] {
+    padding: 80px 0;
+}
+
+.section-testimonials,
+.testimonials-2 {
+  background-image: none;
+}
+
+.section-testimonials .card-profile .card-title,
+.section-testimonials .card-profile .card-description,
+.testimonials-2 .card-profile .card-title,
+.testimonials-2 .card-profile .card-description {
+  text-align: left !important;
+}
+
+.section-testimonials .card-image,
+.testimonials-2 .card-image {
+  margin: 0;
+}
+
+.section-testimonials .carousel .carousel-inner,
+.testimonials-2 .carousel .carousel-inner {
+  box-shadow: none;
+}
+
+.section-testimonials .carousel .carousel-control-prev i,
+.section-testimonials .carousel .carousel-control-next i,
+.testimonials-2 .carousel .carousel-control-prev i,
+.testimonials-2 .carousel .carousel-control-next i {
+  color: #444;
+}
+
+.section-testimonials .testimonials-people,
+.testimonials-2 .testimonials-people {
+  position: relative;
+}
+
+.section-testimonials .testimonials-people img,
+.testimonials-2 .testimonials-people img {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+.section-testimonials .testimonials-people .left-first-person,
+.testimonials-2 .testimonials-people .left-first-person {
+  left: 2%;
+  top: 2%;
+  height: 70px;
+  width: 70px;
+}
+
+.section-testimonials .testimonials-people .left-second-person,
+.testimonials-2 .testimonials-people .left-second-person {
+  left: 65%;
+  top: 100%;
+  height: 70px;
+  width: 70px;
+}
+
+.section-testimonials .testimonials-people .left-third-person,
+.testimonials-2 .testimonials-people .left-third-person {
+  left: -25%;
+  top: 135%;
+  height: 120px;
+  width: 120px;
+}
+
+.section-testimonials .testimonials-people .left-fourth-person,
+.testimonials-2 .testimonials-people .left-fourth-person {
+  left: 40%;
+  top: 180%;
+  height: 40px;
+  width: 40px;
+}
+
+.section-testimonials .testimonials-people .left-fifth-person,
+.testimonials-2 .testimonials-people .left-fifth-person {
+  left: 95%;
+  top: 220%;
+  height: 45px;
+  width: 45px;
+}
+
+.section-testimonials .testimonials-people .left-sixth-person,
+.testimonials-2 .testimonials-people .left-sixth-person {
+  left: 40%;
+  top: 265%;
+  height: 95px;
+  width: 95px;
+}
+
+.section-testimonials .testimonials-people .right-first-person,
+.testimonials-2 .testimonials-people .right-first-person {
+  right: 2%;
+  top: 0;
+  height: 60px;
+  width: 60px;
+}
+
+.section-testimonials .testimonials-people .right-second-person,
+.testimonials-2 .testimonials-people .right-second-person {
+  right: 30%;
+  top: 60%;
+  height: 70px;
+  width: 70px;
+}
+
+.section-testimonials .testimonials-people .right-third-person,
+.testimonials-2 .testimonials-people .right-third-person {
+  right: 95%;
+  top: 95%;
+  height: 50px;
+  width: 50px;
+}
+
+.section-testimonials .testimonials-people .right-fourth-person,
+.testimonials-2 .testimonials-people .right-fourth-person {
+  right: 66%;
+  top: 145%;
+  height: 40px;
+  width: 40px;
+}
+
+.section-testimonials .testimonials-people .right-fifth-person,
+.testimonials-2 .testimonials-people .right-fifth-person {
+  right: 90%;
+  top: 210%;
+  height: 100px;
+  width: 100px;
+}
+
+.section-testimonials .testimonials-people .right-sixth-person,
+.testimonials-2 .testimonials-people .right-sixth-person {
+  right: 15%;
+  top: 240%;
+  height: 70px;
+  width: 70px;
 }

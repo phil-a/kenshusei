@@ -6,8 +6,8 @@ defmodule Kenshusei.Email do
             to: form_submission.email,
             from: System.get_env("SENDGRID_EMAIL_RECIPIENT"),
             subject: "Kenshusei Martial Arts",
-            html_body: "<strong>We thank you for your interest. Someone will be in contact with you shortly.</strong>",
-            text_body: "We thank you for your interest. Someone will be in contact with you shortly."
+            html_body: "<p>Hello #{form_submission.name},<p> We thank you for your interest in Kenshusei Martial Arts. Someone will be in contact with you shortly.</p>",
+            text_body: "Hello #{form_submission.name}, We thank you for your interest in Kenshusei Martial Arts. Someone will be in contact with you shortly."
         )
     end
 
