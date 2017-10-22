@@ -1,187 +1,178 @@
-    <div id="about-page">
-        <div class="page-header page-header-small" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/old-city.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
-            </div>
-            <div class="container">
-                <div class="content-center">
-                    <div class="photo-container">
-                        <img style="max-width: 200px;" src="<%= static_path(@conn, "/images/zen-circle-white.png") %>" alt="">
-                    </div>
-                    <h3 class="title">Shu Sho Ichi Nyo</h3>
-                    <p class="category">- Practice and enlightenment are not two.</p>
-                </div>
-            </div>
-        </div>
-        <div class="gold-gradient"></div>
-        <div id="our-values" class="section">
-        <div class="container">
-                <div class="non-semantic-protector"> 
-                      <h1 class="ribbon">
-                          <strong class="ribbon-content">Our Values</strong>
-                      </h1>
-                  </div>
-                <h5 class="description text-center">3 Pillars of School Strength -  Forging of Spirit:</h5>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="<%= static_path(@conn, "/images/pillar1.jpg") %>" class="rounded" alt="">
-                                </div>
-                                <div class="info text-center">
-                                    <h4 class="info-title">Respect</h4>
-                                    <p class="description">Holding the teacher in high estimation, 
-                                        showing gratitude for Martial Artists who have sacrificed for the benefit of unknown future generations, and
-                                        encouraging and empower junior ranked students.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="<%= static_path(@conn, "/images/pillar3.jpg") %>" class="rounded" alt="">
-                                </div>
-                                <div class="info text-center">
-                                    <h4 class="info-title">Integrity</h4>
-                                    <p class="description">Adherence to a strict code of values and morals. A person who is trustworthy, loyal and virtuous.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="<%= static_path(@conn, "/images/pillar2.jpg") %>" class="rounded" alt="">
-                                </div>
-                                <div class="info text-center">
-                                    <h4 class="info-title">Honour</h4>
-                                    <p class="description">A privilege bestowed upon those with particular virtues, such as bravery, humility, integrity; on the basis of merit, not entitlement. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-    <div class="section monument" style="height: 900px;">
-        <div class="container center">
-                  <div id="float-ribbon" class="non-semantic-protector"> 
-                      <h1 class="ribbon">
-                          <strong class="ribbon-content">Our Sensei</strong>
-                      </h1>
-                  </div>
-                <div class="team">
-                    <div class="row">
-                        <div class="text-center ml-auto mr-auto col-md-4">
-                            <div class="team-player">
-                                <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-                                <h4 class="title">Sensei Michael Rybyj</h4>
-                                <p class="category text-primary">Blackbelt</p>
-                                <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                                    <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
-                                <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div id="about-page">
+  <div class="page-header page-header-small" filter-color="orange">
+    <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/old-city.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
     </div>
-
-            <div id="our-disciplines" class="section">
-                <div class="non-semantic-protector"> 
-                      <h1 class="ribbon">
-                          <strong class="ribbon-content">Our Disciplines</strong>
-                      </h1>
-                  </div>
-
-                <div class="container">
-                    <div class="row">
-                        
-                        <div class="col-md-10 col-lg-12 col-xl-12 ml-auto mr-auto">
-                            <p class="category text-center">Select a discipline to learn more:</p>
-                            <!-- Tabs with Background on Card -->
-                            <div class="">
-                                <ul class="nav nav-tabs justify-content-center" role="tablist" data-background-color="orange">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="tab" href="#home1" role="tab" aria-expanded="true">Kempo Karate</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#profile1" role="tab" aria-expanded="false">Kung Fu</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#messages1" role="tab" aria-expanded="false">Aiki Jitsu</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" data-toggle="tab" href="#settings1" role="tab" aria-expanded="false">Tai Chi</a>
-                                    </li>
-                                </ul>
-                                <div class="card-body">
-                                    <!-- Tab panes -->
-                            
-                                    <div class="tab-content text-center">
-                                        <div class="tab-pane active" id="home1" role="tabpanel" aria-expanded="true">
-                                            <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-                                            <div class="row collections">
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/kempo1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/kempo2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/kempo3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/kempo4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="profile1" role="tabpanel" aria-expanded="false">
-                                            <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                                            <div class="row collections">
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/kungfu1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/kungfu2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/kungfu3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/kungfu4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="messages1" role="tabpanel" aria-expanded="false">
-                                            <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-                                            <div class="row collections">
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/aiki1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/aiki2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/aiki3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/aiki4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane" id="settings1" role="tabpanel" aria-expanded="false">
-                                            <p>
-                                                "I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at."
-                                            <div class="row collections">
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/taichi1.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/taichi2.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <img src="<%= static_path(@conn, "/images/taichi3.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                    <img src="<%= static_path(@conn, "/images/taichi4.jpg") %>" alt="" class="img-raised" style="width: 100%; margin-bottom: 30px;">
-                                                </div>
-                                            </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Tabs on plain Card -->
-                        </div>
-                    </div>            
-                </div>
-            </div>
-            </div>
+    <div class="container">
+      <div class="content-center">
+        <div class="photo-container">
+          <img style="max-width: 200px;" src="<%= static_path(@conn, "/images/zen-circle-white.png") %>" alt="">
         </div>
-    </div>    
-    
+        <h3 class="title">Shu Sho Ichi Nyo</h3>
+        <p class="category">- Practice and enlightenment are not two.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="gold-gradient"></div>
+
+  <div class="section section-about-us">
+    <div class="container">              
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <div class="non-semantic-protector"> 
+            <h1 class="ribbon">
+              <strong class="ribbon-content">Who we are?</strong>
+            </h1>
+          </div>
+          <h5 class="description">Kenshusei Martial Arts is a traditional dojo where one comes to practice the refinement of the body, spirit and behavior. You train not only to defend yourself from others, but also to confront your own worst enemy - Yourself.</h5>
+        </div>
+      </div>
+      <div class="separator separator-primary"></div>
+      <div class="section-story-overview">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image-container image-left" style="background-image: url('<%= static_path(@conn, "/images/old-school.jpg") %>')">
+              <!-- First image on the left side -->
+              <p style="background-color: #303030;" class="blockquote blockquote-primary rellax" data-rellax-speed="-2" data-rellax-percentage="0.5">
+                "The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him."
+                <br>
+                <br>
+                <small>- Sun Tzu</small>
+              </p>
+            </div>
+            <!-- Second image on the left side of the article -->
+            <div class="image-container portrait" style="background-image: url('<%= static_path(@conn, "/images/break.jpg") %>')">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <!-- First image on the right side, above the article -->
+            <div class="image-container image-right" style="background-image: url('https://ak8.picdn.net/shutterstock/videos/6708841/thumb/1.jpg')">
+            </div>
+            <h3>
+              <strong>Budo</strong> - The way of the warrior
+            </h3>
+            <p>
+              <strong>Bu</strong> means to "stop the attack" and suggests the best way to do so is to live in peace, and defend that peace.
+              <br>
+              <strong>Do</strong> suggests a path that takes one where they want to go. In otherwords, self-cultivation.
+            </p>
+            <p>
+              At Kenshusei, we practice budo. Unlike many other modern martial arts schools, we do not practice some form of sport boxing or wrestling. Your environment is not a gym or weight room, but instead a place you are supposed to <strong>honour and respect</strong>. The dojo is a battlefield on which you will confront your worst enemy and the person who has caused you the most difficulty in your life. You.
+            </p>
+            <p>
+              Remember that you will be training in martial arts, not flower arranging. In a good dojo, your teachers will push you to your limits, and at times there will be physical and psychological discomfort. By reaching and surpassing this threshold, you will discover your true self and realize your potential.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="section monument" style="height: 900px;">
+    <div class="container center">
+      <div id="float-ribbon" class="non-semantic-protector"> 
+          <h1 class="ribbon">
+              <strong class="ribbon-content">Our Masters</strong>
+          </h1>
+      </div>
+      <div class="team">
+        <div class="row">
+          <div class="text-center ml-auto mr-auto col-md-4">
+            <div class="team-player">
+              <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+              <h4 class="title">Sensei Michael Rybyj</h4>
+              <p class="category text-primary">Blackbelt</p>
+              <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+            </div>
+          </div>
+          <div class="text-center ml-auto mr-auto col-md-4">
+            <div class="team-player">
+              <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+              <h4 class="title">Sensei Michael Rybyj</h4>
+              <p class="category text-primary">Blackbelt</p>
+              <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+            </div>
+          </div>
+          <div class="text-center ml-auto mr-auto col-md-4">
+            <div class="team-player">
+              <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
+              <h4 class="title">Sensei Michael Rybyj</h4>
+              <p class="category text-primary">Blackbelt</p>
+              <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
+                <a href="#">links</a> for people to be able to follow them outside the site.
+              </p>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
+              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="our-values" class="section">
+    <div class="container">
+      <div class="non-semantic-protector"> 
+        <h1 class="ribbon">
+          <strong class="ribbon-content">Our Values</strong>
+        </h1>
+      </div>
+      <h5 class="description text-center">
+          3 Pillars of School Strength -  Forging of Spirit:
+      </h5>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="<%= static_path(@conn, "/images/IMG_20150329_0010.jpg") %>" class="rounded" alt="">
+            </div>
+            <div class="info text-center">
+              <h4 class="info-title">Respect</h4>
+              <p class="description">
+                Holding the teacher in high estimation, 
+                showing gratitude for Martial Artists who have sacrificed for the benefit of unknown future generations, and
+                encouraging and empower junior ranked students.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="<%= static_path(@conn, "/images/pillar3.jpg") %>" class="rounded" alt="">
+            </div>
+            <div class="info text-center">
+              <h4 class="info-title">Integrity</h4>
+              <p class="description">Adherence to a strict code of values and morals. A person who is trustworthy, loyal and virtuous.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="<%= static_path(@conn, "/images/IMG_20150329_0009.jpg") %>" class="rounded" alt="">
+            </div>
+            <div class="info text-center">
+              <h4 class="info-title">
+                Honour
+              </h4>
+              <p class="description">
+                A privilege bestowed upon those with particular virtues, such as bravery, humility, integrity; on the basis of merit, not entitlement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -19,6 +19,11 @@ defmodule KenshuseiWeb.Router do
     get "/", PageController, :index
     get "/about", PageController, :about    
     get "/schedule", PageController, :schedule
+    get "/karate", PageController, :karate
+    get "/kempo", PageController, :kempo
+    get "/jujitsu", PageController, :jujitsu
+    get "/taichi", PageController, :taichi
+    get "/advanced", PageController, :advanced
     resources "/form_submissions", FormSubmissionController, only: [:create]
   end
 

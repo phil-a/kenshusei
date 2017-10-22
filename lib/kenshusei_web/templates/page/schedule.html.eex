@@ -1,25 +1,30 @@
-
-    <div id="schedule-page">
-        <div class="page-header page-header-small" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/sun-tzu.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
-            </div>
-            <div class="container">
-                <div class="content-center">
-                    <h3 class="title">Training Schedule</h3>
-                    <p class="category">As of June 2017</p>
-                    <div class="content">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="gold-gradient"></div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="schedule-pdf-wrapper rellax" data-rellax-speed="2">
-                        <iframe src="https://s3-us-west-2.amazonaws.com/kenshusei-martial-arts/Zen_Schedule.pdf" style="margin:auto;" frameborder="0"></iframe>
-                    </div> 
-                </div>
-            </div>
-        </div>
+<div id="schedule-page">
+  <div class="page-header page-header-small" filter-color="orange">
+    <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/calendar.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
     </div>
+    <div class="container">
+      <div class="content-center">
+        <h3 class="title">Training Schedule</h3>
+        <p class="category">As of June 2017</p>
+        <div class="content">
+          <p class="description">
+            Our schedule below is flexible and fits to your availability.
+          </p>
+          <p class="description">
+            You may train as much as you want for no additional charges.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gold-gradient"></div>
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="schedule-pdf-wrapper">
+          <iframe src="https://s3-us-west-2.amazonaws.com/kenshusei-martial-arts/Zen_Schedule.pdf" style="margin:auto;" frameborder="0"></iframe>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>

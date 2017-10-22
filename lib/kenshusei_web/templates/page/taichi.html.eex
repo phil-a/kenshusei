@@ -1,0 +1,147 @@
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="page-header header-filter">
+        <div class="page-header-image" style="background-image: url('<%= static_path(@conn, "/images/taichi-h1.jpg") %>');">
+        </div>
+        <div class="content-center">
+          <div class="container text-left">
+            <div class="content-center">
+              <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6 text-right">
+                  <h1 class="title">Tai Chi Chuan</h1>
+                  <h4 class="description ">On the Run Tour: Beyoncé and Jay Z is a 2014 concert special which documents the September 12 and 13, 2014, shows of American singers' Beyoncé and Jay-Z joint co-headlining venture On the Run Tour.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <i class="now-ui-icons arrows-1_minimal-left"></i>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <i class="now-ui-icons arrows-1_minimal-right"></i>
+  </a>
+</div>
+
+<!-- Benefits -->
+<div id="karate-details" class="features-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h2 class="title">Working is a pleasure</h2>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary icon-circle">
+              <i class="now-ui-icons location_world"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">
+                Hundreds of Components
+              </h4>
+              <p>
+                The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use lets you do more than ever before.
+              </p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary icon-circle">
+              <i class="now-ui-icons sport_user-run"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Easy to Use</h4>
+              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+            </div>
+          </div>
+          <div class="info info-horizontal">
+            <div class="icon icon-primary icon-circle">
+              <i class="now-ui-icons ui-2_time-alarm"></i>
+            </div>
+            <div class="description">
+              <h4 class="info-title">Fast Prototyping</h4>
+              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-7">
+        <div class="tablet-container">
+          <img src="<%= static_path(@conn, "/images/sketch1.png") %>">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Other disciplines -->
+<div id="more-disciplines" class="projects-1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 px-0">
+        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/training2.jpg") %>')">
+          <div class="card-block">
+            <h6 class="category">Shaolin Kempo</h6>
+            <h3 class="card-title">
+              Shaolin Kempo
+            </h3>
+            <p class="card-description">
+              Developed on the occasion of an exhibition of the same name, The City Lost &amp; Found: Capturing New York...
+            </p>
+            <a href="/kempo" class="btn btn-danger btn-round">
+              <i class="now-ui-icons ui-1_send"></i> Read more
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 px-0">
+        <div class="card card-raised card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/jujitsu-h2.jpg") %>')">
+          <div class="card-block">
+            <h6 class="category">Aiki Ju-jitsu</h6>
+            <h3 class="card-title">Aiki Ju-jitsu</h3>
+            <p class="card-description">
+              Satires, in the most basic definition, are works making fun of some sort of person or institution...
+            </p>
+            <a href="/jujitsu" class="btn btn-neutral btn-round">
+              <i class="now-ui-icons ui-1_send"></i> Read more
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 px-0">
+        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/karate2.jpg") %>')">
+          <div class="card-block">
+            <h6 class="category">Junior Karate</h6>
+            <h3 class="card-title">Junior Karate</h3>
+            <p class="card-description">
+              The most commonly read works are works of fiction. Fiction books are ones that have been made up...
+            </p>
+            <a href="/karate" class="btn btn-neutral btn-round">
+              <i class="now-ui-icons ui-1_send"></i> Read more
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 px-0">
+        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/advanced-h1.jpg") %>')">
+          <div class="card-block">
+            <h6 class="category">Advanced Training</h6>
+            <h3 class="card-title">Advanced Training</h3>
+            <p class="card-description">
+              Living in South Central L.A., Socrates Fortlow is a sixty-year-old ex-convict, still strong enough to kill men with...
+            </p>
+            <a href="/advanced" class="btn btn-danger btn-round">
+              <i class="now-ui-icons ui-1_send"></i> Read more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

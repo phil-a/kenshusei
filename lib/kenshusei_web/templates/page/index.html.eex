@@ -8,61 +8,241 @@
                     <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
                     <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
                 </div>
+
+            </div>
+
+            <div class="header-content container">
+            <div class="row align-items-end disciplines content-center">
+                      <div class="col-xs-6 col">
+                        <a href="/karate" class="title discipline">Karate</a>
+                      </div>
+                      <div class="col-xs-6 col">
+                        <a href="/kempo" class="title discipline">Shaolin Kempo</a>
+                      </div>
+                      <div class="col-xs-6 col">
+                        <a href="/jujitsu" class="title discipline">Aiki Ju-jitsu</a>
+                      </div>
+                      <div class="col-xs-6 col">
+                        <a href="/taichi" class="title discipline">Tai Chi Chuan</a>
+                      </div>
+                      <div class="col-xs-6 col">
+                        <a href="/advanced" class="title discipline">Advanced</a>
+                      </div>
+                    </div>
             </div>
         </div>
         <div class="gold-gradient"></div>
-        <div class="section section-about-us">
+ 
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto text-center">
-                        <div class="non-semantic-protector"> 
-                            <h1 class="ribbon">
-                                <strong class="ribbon-content">Who we are?</strong>
-                            </h1>
+
+
+
+
+
+
+       <div class="section features-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 text-center">
+                            <h2 class="title">Systematic development</h2>
+                            <h4 class="description">From consistent training, students will exemplify advanced achievements; combined application of technique with mental strategies in a shorter period of time.</h4>
                         </div>
-                        <h5 class="description">Kenshusei Martial Arts is a traditional dojo where one comes to practice the refinement of the body, spirit and behavior. You train not only to defend yourself from others, but also to confront your own worst enemy. Ther person you see in the mirror when you wake.</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-info">
+                                    <i class="now-ui-icons design_app"></i>
+                                </div>
+                                <div class="description">
+                                    <h5 class="info-title">Technical Development</h5>
+                                    <ul>
+                                      <li>Students will learn hard (goho) and soft (juho) techniques.</li>
+                                      <li>Blocking & striking within close quarters.</li>
+                                      <li>How to immobilize the opponent with minimum effort.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="now-ui-icons business_bulb-63"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Mental development</h4>
+                                    <ul>
+                                      <li>Students will develop improved awareness and control.</li>
+                                      <li>Promote confidence, leadership, and self-esteem.</li>
+                                      <li>Fostering philosophy of continuous self-improvement.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="phone-container">
+                                <img src="<%= static_path(@conn, "/images/sketch-invert.png") %>">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="now-ui-icons sport_user-run"></i>
+                                </div>
+                                <div class="description">
+                                    <h5 class="info-title">Training format</h5>
+                                    <ul>
+                                      <li>Physical conditioning and technique drills</li>
+                                      <li>Kata (forms) and sparring with strategic defense</li>
+                                      <li>Study of anatomy, history, philosophy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-success">
+                                    <i class="now-ui-icons sport_trophy"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Admission Requirements</h4>
+                                    <ul>
+                                      <li>Interview with Master Teacher</li>
+                                      <li>Demonstrate a willingness to learn</li>
+                                      <li>Commitment to consistent training (2-3 sessions per week)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="separator separator-primary"></div>
-                <div class="section-story-overview">
+
+
+<hr>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="section projects-5">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="image-container image-left" style="background-image: url('<%= static_path(@conn, "/images/old-school.jpg") %>')">
-                                <!-- First image on the left side -->
-                                <p style="background-color: #303030;" class="blockquote blockquote-primary rellax" data-rellax-speed="-2" data-rellax-percentage="0.5">"The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him."
-                                    <br>
-                                    <br>
-                                    <small>- Sun Tzu</small>
-                                </p>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 text-center">
+                            <h2 class="title">Focus on traditional teachings</h2>
+                            <h4 class="description">We focus not only on teaching physical conditioning, techniques and sparring, but also anatomy, history and philosophy traditionally taught.</h4>
+                            <div class="section-space"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5">
+                            <div class="card card-background card-background-product card-raised" style="background-image: url('<%= static_path(@conn, "/images/calendar.jpg") %>')">
+                                <div class="card-block">
+                                    <h2 class="card-title">Flexible Schedule</h2>
+                                    <p class="card-description">
+                                        Both the junior and adult programs are built to be flexible around your day-to-day schedule. You will need to be commited to attend 2 to 3 times per week in order to maximize your training regimen.
+                                    </p>
+                                    <button class="btn btn-primary btn-simple btn-round" type="button">View Schedule</button>
+                                </div>
                             </div>
-                            <!-- Second image on the left side of the article -->
-                            <div class="image-container portrait" style="background-image: url('<%= static_path(@conn, "/images/break.jpg") %>')"></div>
                         </div>
                         <div class="col-md-5">
-                            <!-- First image on the right side, above the article -->
-                            <div class="image-container image-right" style="background-image: url('https://ak8.picdn.net/shutterstock/videos/6708841/thumb/1.jpg')"></div>
-                            <h3>
-                              <strong>Budo</strong> - The way of the warrior
-                            </h3>
-                            <p>
-                              <strong>Bu</strong> means to "stop the attack" and suggests the best way to do so is to live in peace, and defend that peace.
-                              <br>
-                              <strong>Do</strong> suggests a path that takes one where they want to go. In otherwords, self-cultivation.
-                            </p>
-                            <p>
-                                At Kenshusei, we practice budo. Unlike many other modern martial arts schools, we do not practice some form of sport boxing or wrestling. Your environment is not a gym or weight room, but instead a place you are supposed to <strong>honour and respect</strong>. The dojo is a battlefield on which you will confront your worst enemy and the person who has caused you the most difficulty in your life. You.
-                            </p>
-                            <p>
-                              Remember that you will be training in martial arts, not flower arranging. In a good dojo, your teachers will push you to your limits, and at times their will be physical and psychological discomfort. By reaching and surpassing this threshold, you will discover your true self and realize your potential.
-                            </p>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="now-ui-icons ui-1_calendar-60"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Open 6/7 Days</h4>
+                                    <p class="description">
+                                        We are open 7 days a week during the school season, and Monday to Saturday during the summer season.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="now-ui-icons tech_watch-time"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Daytime & Evening Classes</h4>
+                                    <p class="description">
+                                        Classes are offered both during the daytime and in the evening to fit your work schedule.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Private Classes Available</h4>
+                                    <p class="description">
+                                        You also have the option for serious one-on-one training to take your skills to the next level.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5 mt-5">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-warning">
+                                    <i class="now-ui-icons location_map-big"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">In Vaughan for 35 years</h4>
+                                    <p class="description">
+                                        We're one of the original Martial Arts dojos in the area and have stood the test of time.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-warning">
+                                    <i class="now-ui-icons users_single-02"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Men, Women & Children</h4>
+                                    <p class="description">
+                                        We customize your training to everyones individual skill levels.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-warning">
+                                    <i class="now-ui-icons arrows-1_refresh-69"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Limited class size of 6 students</h4>
+                                    <p class="description">
+                                        This way we guarantee the teachers attention to detail so that you learn effectively.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card card-background card-background-product card-raised" style="background-image: url('<%= static_path(@conn, "/images/training.jpg") %>')">
+                                <div class="card-block">
+                                    <h2 class="card-title">Tailored Training</h2>
+                                    <p class="card-description text-white">
+                                        You will learn how to control your own self, as well as anticipate and control your opponent.
+                                    </p>
+                                    <button class="btn btn-primary btn-simple btn-round" type="button">Learn more</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="gold-gradient"></div>
-<div class="section fixed wood testimonials-2">
+
+            <div class="gold-gradient"></div>
+
+            <div class="section fixed wood testimonials-2">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -94,7 +274,7 @@
                                               <img class="img rounded" src="<%= static_path(@conn, "/images/quote.png") %>">
                                             </div>
                                             <div class="card-block">
-                                                <h5 class="card-description">"In a short period of time at Kenshusei, it was apparent that they [our children] had learned more discipline, self control, new techniques, and have become much more dedicated about attending classes. The strong motivation in the classes has given them increased self confidence, allowing them to achieve their goals as students more quickly."
+                                                <h5 class="card-description">"In a short period of time at Kenshusei, it was apparent that they [our children] had learned more discipline, self control, new techniques, and have become much more dedicated about attending classes. The strong motivation in the classes has given them increased self confidence, allowing them to achieve their goals as students much more quickly than they would have."
                                                 </h5>
                                                 <h3 class="card-title">Massimo Lanna & Paola Braybrook</h3>
                                                 <div class="card-footer">
@@ -109,7 +289,7 @@
                                               <img class="img rounded" src="<%= static_path(@conn, "/images/quote.png") %>">
                                             </div>
                                             <div class="card-block">
-                                                <h5 class="card-description">"The awareness that I have acquired through my training is an invaluable tool - both on the aircraft, and during my stays in foreign cities. When asked by co-workers, "Have You ever had to use your martial arts?" -- (and I know that these people are thinking kicks and punches), I tell them that I use it every day, just as you once told me years ago. How unfortunate that more people don't understand the true essence of the Martial Arts!
+                                                <h5 class="card-description">"The awareness that I have acquired through my training is an invaluable tool. When asked by co-workers, "Have You ever had to use your martial arts?" -- (and I know that these people are thinking kicks and punches), I tell them that I use it every day, just as you once told me years ago. How unfortunate that more people don't understand the true essence of the Martial Arts!
                                                 </h5>
                                                 <h3 class="card-title">Joan Larkins</h3>
                                                 <div class="card-footer">
@@ -130,38 +310,130 @@
                     </div>
                 </div>
             </div>
-        <div class="gold-gradient"></div>
-        <div id="section-contact-us" class="section section-contact-us text-center">
-            <div class="container">
-                <h2 class="title">Want to find out more?</h2>
-                <a class="kungfu btn btn-primary btn-simple" style="font-size: 1.5rem;" href="tel:9057607679">905-760-7679</a>
-                <p class="description">Contact us today.</p>
-                <div class="row">
-                    <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-                        <%= form_for @form_submission_changeset, form_submission_path(@conn, :create), fn f -> %> 
-                        <div class="input-group input-lg">
-                            <span class="input-group-addon">
-                                <i class="now-ui-icons users_circle-08"></i>
-                            </span>
-                            <%= text_input f, :name, [type: "text", class: "form-control", placeholder: "First Name..."] %>
+        
+            <div class="gold-gradient"></div>
+
+            <div class="section features-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <h2 class="title">Become a better you.</h2>
+                            <h4 class="description">Our masters will push you to your limits in order for you to unlock your full potential. You will develop physical strength, good health and a disciplined mind.</h4>
                         </div>
-                        <div class="input-group input-lg">
-                            <span class="input-group-addon">
-                                <i class="now-ui-icons ui-1_email-85"></i>
-                            </span>
-                            <%= text_input f, :email, [type: "text", class: "form-control", placeholder: "Email..."] %>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-success icon-circle">
+                                    <i class="now-ui-icons objects_globe"></i>
+                                </div>
+                                <h4 class="info-title">Physical Strength</h4>
+                                <p class="description">You will notice a difference in strength as your body grows accustomed to our training regimen.</p>
+                            </div>
                         </div>
-                        <div class="textarea-container">
-                            <%= textarea f, :comment, [class: "form-control", rows: "4", cols: "80", placeholder: "Type a message..."] %>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-info icon-circle">
+                                    <i class="now-ui-icons education_atom"></i>
+                                </div>
+                                <h4 class="info-title">Good Health</h4>
+                                <p class="description">Feel better and have more energy in your day-to-day activities and get a better nights rest.</p>
+                            </div>
                         </div>
-                        <div class="send-button">
-                            <%= submit "Send Message", [class: "btn btn-primary btn-round btn-block btn-lg"] %>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-primary icon-circle">
+                                    <i class="now-ui-icons tech_watch-time"></i>
+                                </div>
+                                <h4 class="info-title">Disciplined Mind</h4>
+                                <p class="description">Increase your focus, your awareness, and your willpower. Keep your mind sharp and it will thank you.</p>
+                            </div>
                         </div>
-                        <% end %>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div id="section-contact-us" class="contactus-1 section-image" style="background-image: url('<%= static_path(@conn, "/images/dojo2.jpg") %>')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2 class="title">Get in Touch</h2>
+                            <h4 class="description">The best way to reach us is by telephone and to make an appointment with the master teacher.</h4>
+                            <a class="kungfu btn btn-primary btn-simple no-border" style="font-size: 2.25rem;" href="tel:9057607679">(905)-760-7679</a>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="now-ui-icons location_pin"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Find us at the office</h4>
+                                    <p class="description"> 644 Millway Ave,
+                                        <br> Concord, Ontario
+                                        <br> L4K 4H4
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="now-ui-icons tech_mobile"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Give us a call</h4>
+                                    <p class="description"> Michael Rybyj
+                                        <br> <a class="text" href="tel:9057607679">905-760-7679</a>
+                                        <br> Mon - Sun, 8:00-22:00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5">
+                            <div class="card card-contact card-raised">
+                                <%= form_for @form_submission_changeset, form_submission_path(@conn, :create), fn f -> %>
+                                    <div class="card-header text-center">
+                                        <h4 class="card-title">Contact Us</h4>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="row">
+                                            <div class="col-md-6 pr-2">
+                                                <label>First name</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="now-ui-icons users_circle-08"></i>
+                                                    </span>
+                                                    <%= text_input f, :name, [type: "text", class: "form-control", placeholder: "First Name..."] %>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email address</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="now-ui-icons ui-1_email-85"></i>
+                                                </span>
+                                                <%= text_input f, :email, [type: "text", class: "form-control", placeholder: "Email..."] %>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Your message</label>
+                                            <%= textarea f, :comment, [class: "form-control", rows: "4", cols: "80", placeholder: "Type a message..."] %>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3"></div>
+                                            <div class="col-md-6">
+                                                <%= submit "Send Message", [class: "btn btn-primary btn-round btn-block"] %>
+                                            </div>
+                                            <div class="col-md-3"></div>
+                                        </div>
+                                    </div>
+                                <% end %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
     
     <div id="google-maps"></div>
         <div class="gold-gradient"></div>
@@ -369,9 +641,8 @@
       <h3 id="mapHeading" class="firstHeading">Kenshusei Martial Arts</h3>
       <div id="mapBody">
       <p>
-        644 Millway Ave, Concord, ON L4K 4H4<br>
+        644 Millway Ave,<br> Concord, ON<br> L4K 4H4<br>
         <a class="btn btn-secondary" href="tel:9057607679">Call: 905-760-7679</a>
-        <br>
         <a class="btn btn-primary" href="https://www.google.ca/maps/dir//Kenshusei+Martial+Arts,+644+Millway+Ave,+Concord,+ON+L4K+4H4/@43.8101417,-79.5349562,17z/data=!4m15!1m6!3m5!1s0x882b2f0c070a844f:0xb32fdba1d248f388!2sKenshusei+Martial+Arts!8m2!3d43.8101378!4d-79.5327675!4m7!1m0!1m5!1m1!1s0x882b2f0c070a844f:0xb32fdba1d248f388!2m2!1d-79.5327675!2d43.8101378" target="_blank">Get Directions</a>
       </p>
       </div>

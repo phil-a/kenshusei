@@ -1,0 +1,22 @@
+#karate-details {
+    .title {
+        color: $regular-dark;
+    }
+
+    .info {
+        .description .info-title{
+            color: $regular-dark;
+        }
+        p {
+            color: $regular;
+        }
+    }
+}
+
+#more-disciplines {
+    padding: 0;
+}
+
+.page-header:before {
+    background-color: rgba(0, 0, 0, 0.6);
+}

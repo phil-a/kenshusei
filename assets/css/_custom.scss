@@ -53,12 +53,38 @@ p {
   }
 }
 
+hr {
+    margin: 70px auto;
+    max-width: 970px;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
 .btn p {
   color: inherit;
 }
 
 .description {
   color: $text-dark;
+  .info-title {
+    color: $text;
+  }
+}
+
+.info .info-title {
+  margin: 25px 0 15px;
+  padding: 0 15px;
+  color: $text;
+}
+
+
+.info.info-hover .icon.icon-circle {
+  transition: all 0.3s ease-in-out;
+  background-color: $text-light;
+}
+
+.info.info-hover:hover .icon.icon-circle {
+  background-color: white;
 }
 
 /* Links */
@@ -67,6 +93,10 @@ a {
   &:hover, &:focus {
     color: $secondary;    
   }
+}
+
+a.text {
+  color: $text;
 }
 
 /* Inputs */
@@ -106,7 +136,7 @@ a {
 
 /* Buttons */
 .nav-link.btn.btn-neutral {
-  transition: color 0.3;
+  transition: color 0.3s;
   color: black;
   &:hover {
     color: $secondary;
@@ -130,6 +160,26 @@ a {
     color: $secondary-light;
     border-color: $secondary-light;
   }
+}
+
+.btn.btn-danger.btn-round {
+  background-color: $secondary-light;
+  color: $primary;
+  &:hover {
+    background-color: $secondary;
+    color: $primary-dark;
+  }
+}
+
+.btn.btn-neutral.btn-round {
+  color: $secondary;
+  &:hover {
+    color: $secondary-dark;
+  }
+}
+
+.no-border {
+  border: 0;
 }
 
 /* Separators */
@@ -220,6 +270,10 @@ div.separator.separator-primary {
   .description {
     color: $primary;
   }
+}
+
+.card-block {
+  padding: 1.25rem;
 }
 
 .page-header[filter-color="orange"] {

@@ -13,6 +13,26 @@ defmodule KenshuseiWeb.PageController do
     render conn, "about.html"
   end
 
+  def karate(conn, _params) do
+    render conn, "karate.html"
+  end
+
+  def kempo(conn, _params) do
+    render conn, "kempo.html"
+  end
+
+  def jujitsu(conn, _params) do
+    render conn, "jujitsu.html"
+  end
+
+  def taichi(conn, _params) do
+    render conn, "taichi.html"
+  end
+
+  def advanced(conn, _params) do
+    render conn, "advanced.html"
+  end
+
   def schedule(conn, _params) do
     render conn, "schedule.html"
   end
