@@ -8,37 +8,31 @@
                     <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
                     <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
                 </div>
-
-            </div>
-
-            <div class="header-content container">
-            <div class="row align-items-end disciplines content-center">
-                      <div class="col-xs-6 col">
-                        <a href="/karate" class="title discipline">Karate</a>
-                      </div>
-                      <div class="col-xs-6 col">
-                        <a href="/kempo" class="title discipline">Shaolin Kempo</a>
-                      </div>
-                      <div class="col-xs-6 col">
-                        <a href="/jujitsu" class="title discipline">Aiki Ju-jitsu</a>
-                      </div>
-                      <div class="col-xs-6 col">
-                        <a href="/taichi" class="title discipline">Tai Chi Chuan</a>
-                      </div>
-                      <div class="col-xs-6 col">
-                        <a href="/advanced" class="title discipline">Advanced</a>
-                      </div>
-                    </div>
             </div>
         </div>
-        <div class="gold-gradient"></div>
- 
+        
 
-
-
-
-
-
+        <div class="discipline-list">
+            <div class="card-header" style="">
+                <ul class="disciplines nav nav-tabs nav-tabs-primaryy justify-content-center" role="tablist" data-background-color="orange">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/karate" role="tab" aria-expanded="true">Junior Karate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/kempo" role="tab" aria-expanded="false">Shaolin Kempo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/jujitsu" role="tab" aria-expanded="false">Aiki Ju-Jitsu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/taichi" role="tab" aria-expanded="false">Tai Chi Chuan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/advanced" role="tab" aria-expanded="false">Advanced Weapons</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
        <div class="section features-6">
                 <div class="container">
@@ -56,7 +50,7 @@
                                     <i class="now-ui-icons design_app"></i>
                                 </div>
                                 <div class="description">
-                                    <h5 class="info-title">Technical Development</h5>
+                                    <h4 class="info-title">Technical Development</h4>
                                     <ul>
                                       <li>Students will learn hard (goho) and soft (juho) techniques.</li>
                                       <li>Blocking & striking within close quarters.</li>
@@ -89,7 +83,7 @@
                                     <i class="now-ui-icons sport_user-run"></i>
                                 </div>
                                 <div class="description">
-                                    <h5 class="info-title">Training format</h5>
+                                    <h4 class="info-title">Training format</h4>
                                     <ul>
                                       <li>Physical conditioning and technique drills</li>
                                       <li>Kata (forms) and sparring with strategic defense</li>
@@ -209,7 +203,7 @@
                                 <div class="description">
                                     <h4 class="info-title">Men, Women & Children</h4>
                                     <p class="description">
-                                        We customize your training to everyones individual skill levels.
+                                        Training is customized to each individuals skill levels and abilities, so that no one is left behind.
                                     </p>
                                 </div>
                             </div>
@@ -220,7 +214,7 @@
                                 <div class="description">
                                     <h4 class="info-title">Limited class size of 6 students</h4>
                                     <p class="description">
-                                        This way we guarantee the teachers attention to detail so that you learn effectively.
+                                        With smaller class sizes, you learn more effectively from focused teaching.
                                     </p>
                                 </div>
                             </div>

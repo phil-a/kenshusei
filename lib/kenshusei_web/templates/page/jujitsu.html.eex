@@ -14,7 +14,8 @@
               <div class="row">
                 <div class="col-md-6 text-left">
                   <h1 class="title">Aiki Ju-jitsu</h1>
-                  <h4 class="description ">On the Run Tour: Beyoncé and Jay Z is a 2014 concert special which documents the September 12 and 13, 2014, shows of American singers' Beyoncé and Jay-Z joint co-headlining venture On the Run Tour.</h4>
+                  <h4 class="title">( Skill of Harmony )</h4>
+                  <h4 class="description">Principle of self defense using throwing, choking and joint locking to control an opponent. The concept is to use opponents strength and win by skill rather than sheer strength.</h4>
                 </div>
                 <div class="col-md-6">
                 </div>
@@ -38,17 +39,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5">
-        <h2 class="title">Working is a pleasure</h2>
+        <h2 class="title">What you will gain</h2>
           <div class="info info-horizontal">
             <div class="icon icon-primary icon-circle">
               <i class="now-ui-icons location_world"></i>
             </div>
             <div class="description">
-              <h4 class="info-title">
-                Hundreds of Components
-              </h4>
+              <h4 class="info-title">Instinctual Reflexes</h4>
               <p>
-                The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use lets you do more than ever before.
+                Over time, you will be ingrained with natural reactions and be confident in dealing with any situation that may arise.
               </p>
             </div>
           </div>
@@ -57,8 +56,10 @@
               <i class="now-ui-icons sport_user-run"></i>
             </div>
             <div class="description">
-              <h4 class="info-title">Easy to Use</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+              <h4 class="info-title">Awareness</h4>
+              <p>
+                Be fully conscious of your environment and be able to predict your opponents mental process and future actions.
+              </p>
             </div>
           </div>
           <div class="info info-horizontal">
@@ -66,8 +67,10 @@
               <i class="now-ui-icons ui-2_time-alarm"></i>
             </div>
             <div class="description">
-              <h4 class="info-title">Fast Prototyping</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+              <h4 class="info-title">Refined Coordination</h4>
+              <p>
+                You will learn the ability to control your body as well as manipulate the opponent no matter what their size.
+              </p>
             </div>
           </div>
       </div>

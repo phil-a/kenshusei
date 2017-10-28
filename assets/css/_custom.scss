@@ -18,6 +18,9 @@ a.navbar-brand {
   .page-header.page-header-small {
     height: 100vh;
     max-height: 1000px;
+    .page-header-image {
+      height: 115%;
+    }
   }
 }
 

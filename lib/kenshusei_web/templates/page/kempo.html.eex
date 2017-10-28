@@ -16,7 +16,8 @@
                 </div>
                 <div class="col-md-8 text-enter" style="margin-top: 30%;">
                   <h1 class="title">Shaolin Kempo</h1>
-                  <h4 class="description ">On the Run Tour: Beyoncé and Jay Z is a 2014 concert special which documents the September 12 and 13, 2014, shows of American singers' Beyoncé and Jay-Z joint co-headlining venture On the Run Tour.</h4>
+                  <h4 class="title">( Fist Law )</h4>
+                  <h4 class="description">A balance of hard techniques (Kung-Fu and Karate) for block and counter defense and skills of soft techniques (Ju-Jitsu, Judo) for joint locks and throws.</h4>
                 </div>
                 <div class="col-md-2">
                 </div>
@@ -40,17 +41,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5">
-        <h2 class="title">Working is a pleasure</h2>
+        <h2 class="title">You will gain:</h2>
           <div class="info info-horizontal">
             <div class="icon icon-primary icon-circle">
               <i class="now-ui-icons location_world"></i>
             </div>
             <div class="description">
-              <h4 class="info-title">
-                Hundreds of Components
-              </h4>
+              <h4 class="info-title">Physical Strength</h4>
               <p>
-                The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use lets you do more than ever before.
+                Our workout regimen will enhance your physique and metabolism, like no gym trainer ever could, all while you learn new skills.
               </p>
             </div>
           </div>
@@ -59,8 +58,10 @@
               <i class="now-ui-icons sport_user-run"></i>
             </div>
             <div class="description">
-              <h4 class="info-title">Easy to Use</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+              <h4 class="info-title">Improved Health</h4>
+              <p>
+                After training you will feel refreshed, full of energy and ready to take on the world.
+              </p>
             </div>
           </div>
           <div class="info info-horizontal">
@@ -68,8 +69,10 @@
               <i class="now-ui-icons ui-2_time-alarm"></i>
             </div>
             <div class="description">
-              <h4 class="info-title">Fast Prototyping</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+              <h4 class="info-title">A Disciplined Mind</h4>
+              <p>
+                You will be pushed to overcome mental (and physical) obstacles in the dojo, which in turn will make your daily problems seem trivial.
+              </p>
             </div>
           </div>
       </div>
@@ -81,6 +84,115 @@
     </div>
   </div>
 </div>
+
+
+
+<div class="container-fluid">
+
+
+
+
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto text-center">
+                            <h6 class="category text-muted">Our work</h6>
+                            <h2 class="title">Some of Our Awesome Projects - 4</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 px-0">
+                            <div class="card card-fashion card-background" style="background-image: url('<%= static_path(@conn, "/images/karate2.jpg") %>')">
+                                <div class="card-body">
+                                    <div class="card-title text-left">
+                                        <h2>
+                                            <a href="#pablo">
+                                                The “crazy idea that could lead to a big future commission” project.
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div class="card-footer text-left">
+                                        <div class="stats">
+                                            <span>
+                                                <i class="now-ui-icons objects_globe"></i>The “Crazy idea” project
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-0">
+                            <div class="card-container">
+                                <div class="card card-fashion">
+                                    <div class="card-title">
+                                        <a href="#pablo">
+                                            </a><h4><a href="#pablo">
+                                                </a><a href="#pablo">
+                                                    The next time you’re on vacation, take advantage of all the work you can get done...
+                                                </a>
+                                            </h4>
+                                        
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-footer">
+                                            <div class="stats">
+                                                <span>
+                                                    <i class="now-ui-icons education_paper"></i> The “I’m on vacation” project
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-fashion card-background" style="background-image: url('assets/img/project15.jpg')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 px-0">
+                            <div class="card-container">
+                                <div class="card card-fashion card-background" style="background-image: url('assets/img/project17.jpg')">
+                                </div>
+                                <div class="card card-fashion arrow-left">
+                                    <div class="card-title">
+                                        <h4>
+                                            <a href="#pablo">
+                                                The elements of Agile Project Management have been around for decades...
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-footer">
+                                            <div class="stats">
+                                                <span>
+                                                    <i class="now-ui-icons design_app"></i>The "Agile Project" project
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-0">
+                            <div class="card card-fashion card-background" style="background-image: url('assets/img/project16.jpg')">
+                                <div class="card-body">
+                                    <div class="card-title text-left">
+                                        <h2>
+                                            <a href="#pablo">Performing a Project Premortem</a>
+                                        </h2>
+                                    </div>
+                                    <div class="card-footer text-left">
+                                        <div class="stats">
+                                            <span>
+                                                <i class="now-ui-icons media-2_sound-wave"></i>The "Premortem" project
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
 <!-- Other disciplines -->
 <div id="more-disciplines" class="projects-1">

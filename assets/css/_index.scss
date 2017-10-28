@@ -50,13 +50,24 @@
 
 
 #index-page {
-    .disciplines {
-        bottom: 1rem;
-        top: auto;
-        max-width: 100%;
+
+    .discipline-list {
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.6);
     }
+
+    .disciplines {
+        background-color: transparent;
+    }
+
+    .nav-tabs > .nav-item > .nav-link.active:hover {
+        border: 1px solid $secondary-light;
+        color: $secondary-light !important;
+    }
+
     a.discipline {
         font-size: 1.2rem;
+        border-radius: 0;
     }
 
     .features-6 .phone-container {

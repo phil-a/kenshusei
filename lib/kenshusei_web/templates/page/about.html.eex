@@ -134,7 +134,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-image">
-              <img src="<%= static_path(@conn, "/images/IMG_20150329_0010.jpg") %>" class="rounded" alt="">
+              <img src="<%= static_path(@conn, "/images/taichi-h1.jpg") %>" class="rounded" alt="">
             </div>
             <div class="info text-center">
               <h4 class="info-title">Respect</h4>
@@ -149,7 +149,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-image">
-              <img src="<%= static_path(@conn, "/images/pillar3.jpg") %>" class="rounded" alt="">
+              <img src="<%= static_path(@conn, "/images/integrity.jpg") %>" class="rounded" alt="">
             </div>
             <div class="info text-center">
               <h4 class="info-title">Integrity</h4>
