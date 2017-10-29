@@ -3,34 +3,31 @@
     #our-values {
         .card {
             box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, .2);
-            border: 2px solid $primary;
-            transition: all 0.2s ease-in;
-            background-image: url("../images/classy_fabric_light.png");
+            transition: all 0.3s ease-in-out;
+            background-color: $text-dark;
+            // background-image: url("../images/classy_fabric_light.png");
             background-repeat: repeat;
 
             .info-title {
-                transition: color 0.2s ease-in;
-                color: $text;
+                transition: color 0.3s ease-in-out;
+                color: $regular-dark;
             }
 
             .description {
                 padding: 0 15px;
                 margin-bottom: 30px;
-                color: $text-light;
+                color: $regular;
             }
 
             img {
-                transition: all 0.2s ease-in;
-                opacity: 0.5;
-                filter: alpha(opacity=50); /* For IE8 and earlier */
+                transition: all 0.3s ease-in-out;
+                opacity: 0.75;
+                filter: alpha(opacity=75); /* For IE8 and earlier */
             }
 
             &:hover {
+                background-color: $text;
                 box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.3);
-                border: 2px solid $primary-light;        
-                .info-title {
-                    color: $secondary-light;
-                }
                 img {
                     opacity: 1;
                     filter: alpha(opacity=100); /* For IE8 and earlier */
@@ -47,5 +44,12 @@
         .card .card-body p {
             color: $text;
         }
+    }
+
+    .features-7 .image-container {
+        height: 250px;
+    }
+    .features-7:after {
+        background-color: rgba(0, 0, 0, 0.8);
     }
 }

@@ -47,7 +47,7 @@
                         <div class="col-md-4">
                             <div class="info info-horizontal">
                                 <div class="icon icon-info">
-                                    <i class="now-ui-icons design_app"></i>
+                                    <i class="flaticon-analysis"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Technical Development</h4>
@@ -60,7 +60,7 @@
                             </div>
                             <div class="info info-horizontal">
                                 <div class="icon icon-danger">
-                                    <i class="now-ui-icons business_bulb-63"></i>
+                                    <i class="flaticon-brain-upper-view-outline"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Mental development</h4>
@@ -80,7 +80,7 @@
                         <div class="col-md-4">
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="now-ui-icons sport_user-run"></i>
+                                    <i class="flaticon-strong"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Training format</h4>
@@ -93,7 +93,7 @@
                             </div>
                             <div class="info info-horizontal">
                                 <div class="icon icon-success">
-                                    <i class="now-ui-icons sport_trophy"></i>
+                                    <i class="flaticon-checklist"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Admission Requirements</h4>
@@ -148,7 +148,7 @@
                         <div class="col-md-5">
                             <div class="info info-horizontal">
                                 <div class="icon icon-danger">
-                                    <i class="now-ui-icons ui-1_calendar-60"></i>
+                                    <i class="flaticon-calendar"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Open 6/7 Days</h4>
@@ -159,7 +159,7 @@
                             </div>
                             <div class="info info-horizontal">
                                 <div class="icon icon-danger">
-                                    <i class="now-ui-icons tech_watch-time"></i>
+                                    <i class="flaticon-day-and-night"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Daytime & Evening Classes</h4>
@@ -170,7 +170,7 @@
                             </div>
                             <div class="info info-horizontal">
                                 <div class="icon icon-danger">
-                                    <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                                    <i class="flaticon-lock"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Private Classes Available</h4>
@@ -187,7 +187,7 @@
                         <div class="col-md-5 mt-5">
                             <div class="info info-horizontal">
                                 <div class="icon icon-warning">
-                                    <i class="now-ui-icons location_map-big"></i>
+                                    <i class="flaticon-placeholder"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">In Vaughan for 35 years</h4>
@@ -198,7 +198,7 @@
                             </div>
                             <div class="info info-horizontal">
                                 <div class="icon icon-warning">
-                                    <i class="now-ui-icons users_single-02"></i>
+                                    <i class="flaticon-family"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Men, Women & Children</h4>
@@ -209,7 +209,7 @@
                             </div>
                             <div class="info info-horizontal">
                                 <div class="icon icon-warning">
-                                    <i class="now-ui-icons arrows-1_refresh-69"></i>
+                                    <i class="flaticon-six"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Limited class size of 6 students</h4>
@@ -321,7 +321,8 @@
                         <div class="col-md-4">
                             <div class="info info-hover">
                                 <div class="icon icon-success icon-circle">
-                                    <i class="now-ui-icons objects_globe"></i>
+                                    <img src="<%= static_path(@conn, "/images/020-strength.svg") %>">
+                                    <%# <i class="now-ui-icons objects_globe"></i> %>
                                 </div>
                                 <h4 class="info-title">Physical Strength</h4>
                                 <p class="description">You will notice a difference in strength as your body grows accustomed to our training regimen.</p>
@@ -330,7 +331,8 @@
                         <div class="col-md-4">
                             <div class="info info-hover">
                                 <div class="icon icon-info icon-circle">
-                                    <i class="now-ui-icons education_atom"></i>
+                                    <img src="<%= static_path(@conn, "/images/022-medical-1.svg") %>">
+                                    <%# <i class="now-ui-icons education_atom"></i> %>
                                 </div>
                                 <h4 class="info-title">Good Health</h4>
                                 <p class="description">Feel better and have more energy in your day-to-day activities and get a better nights rest.</p>
@@ -339,7 +341,8 @@
                         <div class="col-md-4">
                             <div class="info info-hover">
                                 <div class="icon icon-primary icon-circle">
-                                    <i class="now-ui-icons tech_watch-time"></i>
+                                    <img src="<%= static_path(@conn, "/images/021-idea.svg") %>">
+                                    <%# <i class="now-ui-icons tech_watch-time"></i> %>
                                 </div>
                                 <h4 class="info-title">Disciplined Mind</h4>
                                 <p class="description">Increase your focus, your awareness, and your willpower. Keep your mind sharp and it will thank you.</p>

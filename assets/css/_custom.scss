@@ -228,6 +228,10 @@ div.separator.separator-primary {
   background-color: $primary;
 }
 
+.section-light {
+  background-color: $text-light;
+}
+
 .section.fixed {
   background-attachment: fixed;  
 }
@@ -263,6 +267,43 @@ div.separator.separator-primary {
     max-width: 200px;
     height: auto;
   }
+}
+
+/* Icons */
+
+.info-horizontal .icon.icon-circle i {
+  margin: -28px auto 0 auto;
+}
+
+.info-horizontal.hover-animation {
+  .info-title {
+      transition: all 0.3s ease-in-out;
+  }
+ .icon.icon-circle {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 9px 30px -6px rgba(0, 0, 0, 0);
+  img {
+      transition: all 0.3s ease-in-out;
+    filter: saturate(40%);
+}
+
+}
+&:hover {
+  .info-title {
+      margin: 15px 5px 25px;
+  }
+  .icon.icon-circle {
+      margin-top: -2px;
+      box-shadow: 0px 9px 30px -6px rgba(0, 0, 0, 0.4);
+      img {
+          filter: saturate(90%);
+      }
+  }
+}
+}
+
+.flaticon-small:before, .flaticon-small:after {
+font-size: 34px;
 }
 
 /* Cards */
@@ -432,6 +473,9 @@ div.separator.separator-primary {
     color: $primary;
   }
 }
+
+
+/* Sections */
 
 [class*="testimonials-"],
 [class*="contactus-"] {

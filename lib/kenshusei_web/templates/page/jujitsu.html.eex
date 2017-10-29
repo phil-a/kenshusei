@@ -35,14 +35,14 @@
 </div>
 
 <!-- Benefits -->
-<div id="karate-details" class="features-5">
+<div id="karate-details" class="features-5 section-light">
   <div class="container">
     <div class="row">
       <div class="col-md-5">
-        <h2 class="title">What you will gain</h2>
-          <div class="info info-horizontal">
+        <h2 class="title">You will develop</h2>
+          <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <i class="now-ui-icons location_world"></i>
+              <img src="<%= static_path(@conn, "/images/012-stopclock.svg") %>">
             </div>
             <div class="description">
               <h4 class="info-title">Instinctual Reflexes</h4>
@@ -51,9 +51,9 @@
               </p>
             </div>
           </div>
-          <div class="info info-horizontal">
+          <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <i class="now-ui-icons sport_user-run"></i>
+              <img src="<%= static_path(@conn, "/images/008-eye.svg") %>">
             </div>
             <div class="description">
               <h4 class="info-title">Awareness</h4>
@@ -62,9 +62,9 @@
               </p>
             </div>
           </div>
-          <div class="info info-horizontal">
+          <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <i class="now-ui-icons ui-2_time-alarm"></i>
+              <img src="<%= static_path(@conn, "/images/018-maze.svg") %>">
             </div>
             <div class="description">
               <h4 class="info-title">Refined Coordination</h4>

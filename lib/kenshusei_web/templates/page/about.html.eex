@@ -69,56 +69,56 @@
     <hr>
   </div>
 
-  <div class="section monument" style="height: 900px;">
-    <div class="container center">
-      <div id="float-ribbon" class="non-semantic-protector"> 
-          <h1 class="ribbon">
-              <strong class="ribbon-content">Our Masters</strong>
-          </h1>
-      </div>
-      <div class="team">
-        <div class="row">
-          <div class="text-center ml-auto mr-auto col-md-4">
-            <div class="team-player">
-              <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-              <h4 class="title">Sensei Michael Rybyj</h4>
-              <p class="category text-primary">Blackbelt</p>
-              <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+
+
+
+
+
+
+
+
+<div class="features-7 section-image" style="background-image: url('<%= static_path(@conn, "/images/dojo2.jpg") %>')">
+          <div class="non-semantic-protector" style="z-index: 10;"> 
+            <h1 class="ribbon">
+              <strong class="ribbon-content">Our Philosophy</strong>
+            </h1>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+              <h4 class="description">As a symbol, Kenshusei's school crest means "The Art of War" in Chinese and stems from an acient Chinese treatise written by Sun Tzu 2500 years ago.</h4>
             </div>
           </div>
-          <div class="text-center ml-auto mr-auto col-md-4">
-            <div class="team-player">
-              <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-              <h4 class="title">Sensei Michael Rybyj</h4>
-              <p class="category text-primary">Blackbelt</p>
-              <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                  <a href="#">links</a> for people to be able to follow them outside the site.</p>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 px-0">
+                            <div class="col-sm-12">
+                                <div class="info info-horizontal">
+                                    <div class="description">
+                                        <h5 class="info-title">What it means</h5>
+                                        <p class="description">The symbol epitomizes the mental attitude that one must attempt to win without battle, loss or injury, whether in war, self defense, business or in academic activities. For total victory, one must have knowledge of, and be able to use strategic planning to force the enemy to give up or retreat. This is the essence of training at Kenshusei Martial Arts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-container">
+                                <img src="<%= static_path(@conn, "/images/zen-circle-white.png") %>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="text-center ml-auto mr-auto col-md-4">
-            <div class="team-player">
-              <img src="<%= static_path(@conn, "/images/zen-circle-orig.png") %>" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised">
-              <h4 class="title">Sensei Michael Rybyj</h4>
-              <p class="category text-primary">Blackbelt</p>
-              <p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                <a href="#">links</a> for people to be able to follow them outside the site.
-              </p>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-twitter"></i></a>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-instagram"></i></a>
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+
+
+
+
+
+
+
+
 
   <div id="our-values" class="section">
     <div class="container">
@@ -127,14 +127,18 @@
           <strong class="ribbon-content">Our Values</strong>
         </h1>
       </div>
-      <h5 class="description text-center">
-          3 Pillars of School Strength -  Forging of Spirit:
-      </h5>
+            <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+              <h3 class="description">Our three pillars of school strength:</h3>
+            </div>
+          </div>
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <div class="card-image">
-              <img src="<%= static_path(@conn, "/images/taichi-h1.jpg") %>" class="rounded" alt="">
+            <div class="card-image parent">
+            
+              <img src="<%= static_path(@conn, "/images/taichi-h1.jpg") %>" class="child rounded" alt="">
             </div>
             <div class="info text-center">
               <h4 class="info-title">Respect</h4>
