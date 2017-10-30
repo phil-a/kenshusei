@@ -17,6 +17,11 @@
                                 MIT License
                             </a>
                         </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#creditsModal">
+                                Credits
+                            </a>
+                        </li>
                     </ul>
                 </nav>
                 <div class="copyright">
@@ -28,4 +33,27 @@
                     <a href="https://www.alekseev.ca" target="_blank">Philip Alekseev</a>.
                 </div>
             </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="creditsModal" tabindex="-1" role="dialog" aria-labelledby="creditsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="creditsModalLabel">Credits</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    This website was designed and developed by <a href="http://www.alekseev.ca/">Philip Alekseev</a>.
+                    <br>
+                    Icons designed by <a href="https://www.flaticon.com/">Freepik from Flaticon</a> and others. Full license <a href="https://s3-us-west-2.amazonaws.com/kenshusei-martial-arts/license/license.pdf">here</a>.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+            </div>
         </footer>
+

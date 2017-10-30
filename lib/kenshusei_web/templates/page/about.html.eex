@@ -76,7 +76,7 @@
 
 
 
-
+<div class="gold-gradient"></div>
 <div class="features-7 section-image" style="background-image: url('<%= static_path(@conn, "/images/dojo2.jpg") %>')">
           <div class="non-semantic-protector" style="z-index: 10;"> 
             <h1 class="ribbon">
@@ -86,7 +86,7 @@
           <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
-              <h4 class="description">As a symbol, Kenshusei's school crest means "The Art of War" in Chinese and stems from an acient Chinese treatise written by Sun Tzu 2500 years ago.</h4>
+              <h4 class="description">As a symbol, Kenshusei's school crest means "The Art of War" in Chinese and stems from an ancient Chinese treatise written by Sun Tzu 2500 years ago.</h4>
             </div>
           </div>
                 <div class="container-fluid">
@@ -109,6 +109,7 @@
                     </div>
                 </div>
             </div>
+  <div class="gold-gradient"></div>
 
 
 

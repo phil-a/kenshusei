@@ -71,6 +71,16 @@
 
     .features-6 {
         padding-bottom: 2px;
+        .info.info-horizontal {
+            .icon {
+                color: $secondary;
+            }
+            &:hover {
+                .icon {
+                    color: $secondary-light;
+                }
+            }
+        }
     }
 
     .features-6 .phone-container {
@@ -79,6 +89,17 @@
 
     .projects-5 {
         padding-top: 0;
+        .info.info-horizontal {
+            .icon {
+                color: $secondary;
+            }
+            &:hover {
+                .icon {
+                    color: $secondary-light;
+                }
+            }
+        }
+        
     }
 
     #section-contact-us .card {
