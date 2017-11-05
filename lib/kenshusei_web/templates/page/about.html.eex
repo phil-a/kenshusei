@@ -4,11 +4,8 @@
     </div>
     <div class="container">
       <div class="content-center">
-        <div class="photo-container">
-          <img style="max-width: 200px;" src="<%= static_path(@conn, "/images/zen-circle-white.png") %>" alt="">
-        </div>
         <h3 class="title">Shu Sho Ichi Nyo</h3>
-        <p class="category">- Practice and enlightenment are not two.</p>
+        <h3><small>- Practice and enlightenment are not two.</small></h3>
       </div>
     </div>
   </div>
@@ -24,7 +21,7 @@
               <strong class="ribbon-content">Who we are?</strong>
             </h1>
           </div>
-          <h5 class="description">Kenshusei Martial Arts is a traditional dojo where one comes to practice the refinement of the body, spirit and behavior. You train not only to defend yourself from others, but also to confront your own worst enemy - Yourself.</h5>
+          <h4 class="description">Kenshusei Martial Arts is a traditional dojo where one comes to practice the refinement of the body, spirit and behavior. You train not only to defend yourself from others, but also to confront your own worst enemy - <i>Yourself</i>.</h4>
         </div>
       </div>
       <div class="separator separator-primary"></div>
@@ -46,7 +43,7 @@
           </div>
           <div class="col-md-5">
             <!-- First image on the right side, above the article -->
-            <div class="image-container image-right" style="background-image: url('https://ak8.picdn.net/shutterstock/videos/6708841/thumb/1.jpg')">
+            <div class="image-container image-right" style="background-image: url('<%= static_path(@conn, "/images/jj1.jpg") %>')">
             </div>
             <h3>
               <strong>Budo</strong> - The way of the warrior
@@ -102,7 +99,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="image-container">
+                            <div class="image-container" data-aos="fade-up">
                                 <img src="<%= static_path(@conn, "/images/zen-circle-white.png") %>" alt="">
                             </div>
                         </div>
@@ -110,16 +107,6 @@
                 </div>
             </div>
   <div class="gold-gradient"></div>
-
-
-
-
-
-
-
-
-
-
 
   <div id="our-values" class="section">
     <div class="container">
@@ -131,7 +118,7 @@
             <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
-              <h3 class="description">Our three pillars of school strength:</h3>
+              <h4 class="description">At Kenshusei, we place high importance on tradition and knowledge and expect of you to do the same. You will be asked to abide by the following three pillars of strength.</h4>
             </div>
           </div>
       <div class="row">

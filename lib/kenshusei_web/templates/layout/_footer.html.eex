@@ -8,13 +8,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/contact">
+                            <a href="/#section-contact-us">
                                 Contact
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                                MIT License
                             </a>
                         </li>
                         <li>
@@ -29,8 +24,7 @@
                     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script>
                         document.write(new Date().getFullYear())
                     </script>
-                    <a href="http://www.kenshuseimartialarts.com" target="_blank">Kenshusei Martial Arts</a>. Coded by
-                    <a href="https://www.alekseev.ca" target="_blank">Philip Alekseev</a>.
+                    <a href="http://www.kenshuseimartialarts.com" target="_blank">Kenshusei Martial Arts</a>.
                 </div>
             </div>
 
@@ -46,6 +40,8 @@
                 </div>
                 <div class="modal-body">
                     This website was designed and developed by <a href="http://www.alekseev.ca/">Philip Alekseev</a>.
+                    <br>
+                    We proudly utilize the <a href="https://www.creative-tim.com/product/now-ui-kit">Now-UI-Kit</a> from <a href="https://www.creative-tim.com/">Creative Tim</a>
                     <br>
                     Icons designed by <a href="https://www.flaticon.com/">Freepik from Flaticon</a> and others. Full license <a href="https://s3-us-west-2.amazonaws.com/kenshusei-martial-arts/license/license.pdf">here</a>.
                 </div>

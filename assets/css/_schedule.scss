@@ -13,4 +13,17 @@
             height: 135vh;
         }
     }
+
+    div.schedule-image-left {
+        width: 250px;        
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    div.schedule-image-right {
+        width: 250px;
+        position: absolute;        
+        top: 0;
+        right: 0;
+    }
 }

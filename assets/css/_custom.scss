@@ -1,3 +1,12 @@
+/* Helper */
+.no-padding-top {
+  padding-top: 2px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 2px;
+}
+
 /* Navbar */
 a.navbar-brand {
   font-size: 20px !important;
@@ -11,6 +20,23 @@ a.navbar-brand {
 .navbar.bg-primary.navbar-transparent {
   background-color: transparent !important;
   border-bottom: transparent solid 2px;
+}
+
+.navbar-toggler.navbar-toggler {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse:after {
+    background-color: $primary;
+    background: -webkit-linear-gradient($primary 0%, $primary-light 80%);
+    background: -o-linear-gradient($primary 0%, $primary-light 80%);
+    background: -moz-linear-gradient($primary 0%, $primary-light 80%);
+    background: linear-gradient($primary 0%, $primary-light 80%);
+    opacity: 1;
+  }    
 }
 
 /* Header Height */
@@ -237,7 +263,7 @@ div.separator.separator-primary {
 }
 
 .section-light {
-  background-color: $text-light;
+  background-color: $primary;
 }
 
 .section.fixed {

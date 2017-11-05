@@ -5,7 +5,7 @@
     <div class="container">
       <div class="content-center">
         <h3 class="title">Training Schedule</h3>
-        <p class="category">As of June 2017</p>
+        <h3><small>As of June 2017</small></h3>
         <div class="content">
           <p class="description">
             Our schedule below is flexible and fits to your availability.
@@ -24,6 +24,12 @@
         <div class="schedule-pdf-wrapper">
           <iframe src="https://s3-us-west-2.amazonaws.com/kenshusei-martial-arts/Zen_Schedule.pdf" style="margin:auto;" frameborder="0"></iframe>
         </div> 
+      </div>
+      <div class="schedule-image-left rellax" data-rellax-speed="-3" data-rellax-percentage="1.5">
+        <img src="<%= static_path(@conn, "/images/Zen2.png") %>">
+      </div>
+      <div class="schedule-image-right rellax" data-rellax-speed="3" data-rellax-percentage="1.5">
+        <img src="<%= static_path(@conn, "/images/Zen1.png") %>">
       </div>
     </div>
   </div>

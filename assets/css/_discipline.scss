@@ -1,14 +1,14 @@
 .section-light {
     .title {
-        color: $regular-dark;
+        color: $text;
     }
 
     .info {
         .description .info-title{
-            color: $regular-dark;
+            color: $text;
         }
         p {
-            color: $regular;
+            color: $text;
         }
     }
 }

@@ -1,40 +1,29 @@
 <!-- Carousel -->
-<div id="carouselExampleIndicators" class="carousel slide">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="page-header header-filter">
-        <div class="page-header-image" style="background-image: url('<%= static_path(@conn, "/images/advanced-h1.jpg") %>');">
-        </div>
-        <div class="content-center">
-          <div class="container text-left">
-            <div class="content-center">
-              <div class="row">
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6 text-right">
-                  <h1 class="title">Advanced Weapons Training</h1>
-                  <h4 class="description">Ancient weapons of war are today used to practice extension of empty hand techniques.</h4>
-                </div>
+<div class="carousel slide">
+  <div class="carousel-inner">
+    <div class="page-header header-filter">
+      <div class="page-header-image" style="background-image: url('<%= static_path(@conn, "/images/advanced-h1.jpg") %>');">
+      </div>
+      <div class="content-center">
+        <div class="container text-left">
+          <div class="content-center">
+            <div class="row">
+              <div class="col-md-6">
+              </div>
+              <div class="col-md-6 text-right rellax" data-rellax-speed="0">
+                <h1 class="title">Advanced Weapons Training</h1>
+                <h4 class="description">Ancient weapons of war are today used to practice extension of empty hand techniques.</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <i class="now-ui-icons arrows-1_minimal-left"></i>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <i class="now-ui-icons arrows-1_minimal-right"></i>
-  </a>
 </div>
 
 <!-- Benefits -->
-<div id="karate-details" class="section-light features-5">
+<div id="karate-details" class="section-light features-5 no-padding-bottom">
   <div class="container">
     <div class="row">
       <div class="col-md-5">
@@ -71,9 +60,59 @@
             </div>
           </div>
       </div>
-      <div class="col-md-7">
+      <div class="col-md-2"></div>
+      <div class="col-md-5">
         <div class="tablet-container">
-          <img src="<%= static_path(@conn, "/images/poly2.png") %>">
+          <div data-aos="fade-left">
+            <img src="<%= static_path(@conn, "/images/Zen2.png") %>">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
+
+
+<!-- Gallery -->
+<div class="cards section no-padding-top">
+  <div class="container">
+    <div class="title text-center">
+      <h2 class="title">Gallery</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card card-blog">
+          <div class="card-image">
+              <img class="img rounded" src="<%= static_path(@conn, "/images/wp1.jpg") %>">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card" data-background-color="black">
+          <div class="card-body content-danger">
+            <h4 class="card-title">
+              Weapons Training
+            </h4>
+            <p class="card-description">
+              Ancient weapons of war are today used to practice extension of empty hand techniques.
+            </p>
+            <div class="card-footer text-center">
+              <a href="/#section-contact-us" class="btn btn-default btn-round">Find out more</a>
+            </div>
+          </div>
+        </div>
+        <div class="card card-blog">
+          <div class="card-image">
+              <img class="img rounded" src="<%= static_path(@conn, "/images/wp2.jpg") %>">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0">
+        <div class="card card-blog">
+          <div class="card-image">
+              <img class="img rounded" src="<%= static_path(@conn, "/images/wp3.jpg") %>">
+          </div>
         </div>
       </div>
     </div>

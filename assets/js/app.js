@@ -25,3 +25,7 @@ $(window).on("load", function() {
 });
 
 var rellax = new Rellax('.rellax');
+
+AOS.init({
+    easing: 'ease-in-out-sine'
+  });

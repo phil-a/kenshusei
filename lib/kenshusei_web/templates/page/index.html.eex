@@ -73,8 +73,8 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="phone-container">
-                                <img src="<%= static_path(@conn, "/images/sketch-invert.png") %>">
+                            <div class="phone-container rellax" data-rellax-speed="-1.25" data-rellax-percentage="0.5">
+                                <img src="<%= static_path(@conn, "/images/Zen2.png") %>">
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -107,20 +107,8 @@
                         </div>
                     </div>
                 </div>
-
-
-<hr>
+            <hr>
             </div>
-
-
-
-
-
-
-
-
-
-
 
             <div class="section projects-5">
                 <div class="container">
@@ -146,7 +134,7 @@
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <div class="info info-horizontal">
+                            <div class="info info-horizontal" data-aos="fade-left">
                                 <div class="icon icon-danger">
                                     <i class="flaticon-calendar"></i>
                                 </div>
@@ -157,7 +145,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="info info-horizontal">
+                            <div class="info info-horizontal" data-aos="fade-left">
                                 <div class="icon icon-danger">
                                     <i class="flaticon-day-and-night"></i>
                                 </div>
@@ -168,7 +156,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="info info-horizontal">
+                            <div class="info info-horizontal" data-aos="fade-left">
                                 <div class="icon icon-danger">
                                     <i class="flaticon-lock"></i>
                                 </div>
@@ -185,7 +173,7 @@
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-5 mt-5">
-                            <div class="info info-horizontal">
+                            <div class="info info-horizontal" data-aos="fade-right">
                                 <div class="icon icon-warning">
                                     <i class="flaticon-placeholder"></i>
                                 </div>
@@ -196,7 +184,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="info info-horizontal">
+                            <div class="info info-horizontal" data-aos="fade-right">
                                 <div class="icon icon-warning">
                                     <i class="flaticon-family"></i>
                                 </div>
@@ -207,7 +195,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="info info-horizontal">
+                            <div class="info info-horizontal" data-aos="fade-right">
                                 <div class="icon icon-warning">
                                     <i class="flaticon-six"></i>
                                 </div>
