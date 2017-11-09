@@ -79,8 +79,10 @@
 <!-- Gallery -->
 <div class="cards section no-padding-top">
   <div class="container">
-    <div class="title text-center">
-      <h2 class="title">Gallery</h2>
+    <div class="non-semantic-protector"> 
+      <h1 class="ribbon">
+        <strong class="ribbon-content">Our Students</strong>
+      </h1>
     </div>
     <div class="row">
       <div class="col-md-6 col-lg-4">

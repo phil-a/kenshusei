@@ -4,14 +4,17 @@
             </div>
             <div class="header-content container">
                 <div class="content-center">
-                    <h1 class="title kungfu">KENSHUSEI MARTIAL ARTS</h1>
+                    <h1 class="title kungfu">KENSHUSEI MARTIAL ARTS
+                    <br>
+                    <small class="title kungfu">Zen Warrior</small>
+                    </h1>
+                    
                     <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
                     <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
                 </div>
             </div>
         </div>
         
-
         <div class="discipline-list">
             <div class="card-header" style="">
                 <ul class="disciplines nav nav-tabs nav-tabs-primaryy justify-content-center" role="tablist" data-background-color="orange">
@@ -129,7 +132,7 @@
                                     <p class="card-description">
                                         Both the junior and adult programs are built to be flexible around your day-to-day schedule. You will need to be commited to attend 2 to 3 times per week in order to maximize your training regimen.
                                     </p>
-                                    <button class="btn btn-primary btn-simple btn-round" type="button">View Schedule</button>
+                                    <a href="/schedule" class="btn btn-primary btn-simple btn-round">View Schedule</a>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +217,7 @@
                                     <p class="card-description text-white">
                                         You will learn how to control your own self, as well as anticipate and control your opponent.
                                     </p>
-                                    <button class="btn btn-primary btn-simple btn-round" type="button">Learn more</button>
+                                    <a href="/about" class="btn btn-primary btn-simple btn-round">Learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -355,7 +358,7 @@
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Find us at the office</h4>
-                                    <p class="description"> 644 Millway Ave,
+                                    <p class="description"> 644 Millway Ave, Unit 2
                                         <br> Concord, Ontario
                                         <br> L4K 4H4
                                     </p>
@@ -628,7 +631,7 @@
       <h3 id="mapHeading" class="firstHeading">Kenshusei Martial Arts</h3>
       <div id="mapBody">
       <p>
-        644 Millway Ave,<br> Concord, ON<br> L4K 4H4<br>
+        644 Millway Ave, Unit 2<br> Concord, ON<br> L4K 4H4<br>
         <a class="btn btn-secondary" href="tel:9057607679">Call: 905-760-7679</a>
         <a class="btn btn-primary" href="https://www.google.ca/maps/dir//Kenshusei+Martial+Arts,+644+Millway+Ave,+Concord,+ON+L4K+4H4/@43.8101417,-79.5349562,17z/data=!4m15!1m6!3m5!1s0x882b2f0c070a844f:0xb32fdba1d248f388!2sKenshusei+Martial+Arts!8m2!3d43.8101378!4d-79.5327675!4m7!1m0!1m5!1m1!1s0x882b2f0c070a844f:0xb32fdba1d248f388!2m2!1d-79.5327675!2d43.8101378" target="_blank">Get Directions</a>
       </p>

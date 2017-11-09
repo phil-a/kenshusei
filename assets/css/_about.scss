@@ -49,7 +49,16 @@
     .features-7 .image-container {
         height: 250px;
     }
+
+    @media screen and (max-width: 767px) {
+        .features-7 .image-container img {
+            display: block;
+            margin: auto;
+            max-height: 140px;
+            max-width: 140px;
+        }
+    }
     .features-7:after {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.32);
     }
 }

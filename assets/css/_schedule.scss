@@ -1,29 +1,39 @@
 #schedule-page {
     div.schedule-pdf-wrapper {
-        margin-top: -200px;
+        margin-top: -180px;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        iframe {
+        img {
             border: 2px solid $secondary;
             background-color: $primary;
+            background-image: url("../images/classy_fabric_dark.png");
+            background-attachment: fixed; 
+            background-repeat: repeat;
             width: 100%;
-            padding-left: 10%;
-            padding-right: 10%;
-            height: 135vh;
         }
     }
 
-    div.schedule-image-left {
-        width: 250px;        
-        position: absolute;
-        top: 0;
-        left: 0;
+    @media screen and (max-width: 767px) {
+            img {
+                border: 2px solid $secondary;
+                background-color: $primary;
+                background-image: url("../images/classy_fabric_dark.png");
+                background-attachment: fixed; 
+                background-repeat: repeat;
+                width: 100%;
+                padding: 0;
+            }
     }
-    div.schedule-image-right {
-        width: 250px;
-        position: absolute;        
-        top: 0;
-        right: 0;
+
+    @media screen and (max-width: 540px) {
+        div.schedule-pdf-wrapper {
+            margin-top: -130px;
+        }
+    }
+    #download_schedule {
+        max-width: 250px;
+        margin: auto;
+        margin-top: 20px;
     }
 }
