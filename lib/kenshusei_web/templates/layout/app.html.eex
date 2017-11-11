@@ -19,6 +19,8 @@
             console.log("Google Analytics disabled for development environment.")
         }
     </script>
+    <!-- Favicon -->
+    <link rel=icon href="<%= static_path(@conn, "/images/zen-favicon.png") %>">
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
