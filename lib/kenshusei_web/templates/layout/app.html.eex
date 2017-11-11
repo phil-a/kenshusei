@@ -7,6 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Kenshusei Martial Arts</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73538909-5"></script>
+    <script>
+        if (document.location.hostname == "kenshuseimartialarts.com") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-73538909-5');
+        } else {
+            console.log("Google Analytics disabled for development environment.")
+        }
+    </script>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />

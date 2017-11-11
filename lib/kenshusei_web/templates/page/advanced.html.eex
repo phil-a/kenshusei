@@ -30,33 +30,37 @@
         <h2 class="title">You will develop</h2>
           <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <img src="<%= static_path(@conn, "/images/020-strength.svg") %>">
+              <img src="<%= static_path(@conn, "/images/015-thinking.svg") %>">
             </div>
             <div class="description">
               <h4 class="info-title">
-                Use your surroundings
+                Synchrony with your surroundings
               </h4>
               <p>
-                The moment you use Now UI Kit, you know you’ve never felt anything like it. With a single use lets you do more than ever before.
+                Advanced students will learn how to adapt their techniques to specific situations to work in their benefit.
               </p>
             </div>
           </div>
           <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <img src="<%= static_path(@conn, "/images/022-medical-1.svg") %>">
+              <img src="<%= static_path(@conn, "/images/001-knife.svg") %>">
             </div>
             <div class="description">
-              <h4 class="info-title">Better Dexterity</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+              <h4 class="info-title">Superior Dexterity</h4>
+              <p>
+                Slight of hand and of mind is essential and in some situations it could mean the difference between life and death. Be prepared.
+              </p>
             </div>
           </div>
           <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <img src="<%= static_path(@conn, "/images/021-idea.svg") %>">
+              <img src="<%= static_path(@conn, "/images/012-stopclock.svg") %>">
             </div>
             <div class="description">
               <h4 class="info-title">Improved Timing & Distancing</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature.</p>
+              <p>
+                Learn to take your opponent off-guard, fine tune your reactions, and develop close combat skills that are difficult to counter.
+              </p>
             </div>
           </div>
       </div>
