@@ -406,6 +406,7 @@
                                             <label>Your message</label>
                                             <%= textarea f, :comment, [class: "form-control", rows: "4", cols: "80", placeholder: "Type a message...", required: true] %>
                                         </div>
+                                        <%= raw Recaptcha.Template.display() %>
                                         <div class="row">
                                             <div class="col-md-3"></div>
                                             <div class="col-md-6">
