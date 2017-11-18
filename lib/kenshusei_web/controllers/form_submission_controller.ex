@@ -7,16 +7,28 @@ defmodule KenshuseiWeb.FormSubmissionController do
                     Email 
                   }
 
-  def create(conn, %{"form_submission" => form_submission_params}) do
-    case Contact.create_form_submission(form_submission_params) do
-      {:ok, form_submission} ->
-        Email.contact_email(form_submission) |> Mailer.deliver_now
-        Email.owner_email(form_submission) |> Mailer.deliver_now
+  def create(conn, %{"form_submission" => form_submission_params} = params) do
+    case Recaptcha.verify(params["g-recaptcha-response"]) do
+      {:ok, response} -> 
+        case Contact.create_form_submission(form_submission_params) do
+          {:ok, form_submission} ->
+            Email.contact_email(form_submission) |> Mailer.deliver_now
+            Email.owner_email(form_submission) |> Mailer.deliver_now
+            IO.puts("Form submission created successfully.")
+            conn
+            |> put_flash(:info, "Form submission created successfully.")
+            |> redirect(to: page_path(conn, :index))
+          {:error, %Ecto.Changeset{} = changeset} ->
+            IO.puts("Error submitting form.")
+            conn
+            |> put_flash(:info, "Form submission created successfully.")
+            |> redirect(to: page_path(conn, :index))
+        end
+      {:error, errors} ->
+        IO.puts("Captcha not verified. Please try again.")
         conn
-        |> put_flash(:info, "Form submission created successfully.")
+        |> put_flash(:info, "Captcha not verified. Please try again.")
         |> redirect(to: page_path(conn, :index))
-      {:error, %Ecto.Changeset{} = changeset} ->
-        render(conn, "new.html", changeset: changeset)
     end
   end
 
