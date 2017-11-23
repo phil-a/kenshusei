@@ -1,0 +1,51 @@
+<div class="session-new">
+
+  <div class="page-header">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/dojo.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
+      </div>
+      <div class="header-content container">
+          <div class="content-center">
+              <div class="content-center">
+                
+                <h1 class="title kungfu">SIGN IN</h1>
+
+                <%= form_for @conn, session_path(@conn, :create), [as: :session], fn f  -> %>
+
+                  <% login_field = Coherence.Config.login_field %>
+                  <div class="form-group">
+                    <%= required_label f, login_field, class: "control-label" %>
+                    <%= text_input f, login_field, class: "form-control", required: "" %>
+                    <%= error_tag f, login_field %>
+                  </div>
+
+                  <div class="form-group">
+                    <%= required_label f, dgettext("coherence", "Password"), class: "control-label" %>
+                    <%= password_input f, :password, class: "form-control", required: "" %>
+                    <%= error_tag f, :password %>
+                  </div>
+
+                  <%= if @remember do %>
+                    <div class="form-group">
+                      <input type="checkbox"  name="remember" id="remember">
+                      <label for="remember"><%= dgettext "coherence", "Remember Me?" %></label>
+                    </div>
+                    <br />
+                  <% end %>
+
+                  <div class="form-group">
+                    <%= submit dgettext("coherence", "Sign In"), class: "btn btn-primary" %>
+                    <%= link dgettext("coherence", "Cancel"), to: Coherence.Config.logged_out_url("/"), class: "btn" %>
+                  </div>
+
+                  <div class="form-group">
+                    <%= coherence_links(@conn, :new_session) %>
+                  </div>
+
+                <% end %>
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+</div>

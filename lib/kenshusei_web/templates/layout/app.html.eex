@@ -91,6 +91,19 @@
                           <p class="d-lg-none d-xl-none">Instagram</p>
                       </a>
                   </li>
+                  <%= if (Coherence.current_user_name(@conn)) do %>
+                    <li class="nav-item">
+                        <a id="user-link" class="nav-link" href="/">
+                            <%= Coherence.current_user_name(@conn) %>
+                        </a>
+                    </li>
+                  <%= else %>
+                    <li class="nav-item">
+                      <a id="user-link" class="nav-link" href="/sessions/new">
+                          Sign in
+                      </a>
+                    </li>
+                  <% end %>
                 </ul>
               </div>
             </div>

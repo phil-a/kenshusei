@@ -1,0 +1,9 @@
+.session-new {
+    .control-label {
+        color: white;
+      }
+
+    .form-control:focus {
+        color: $secondary-light;
+    }
+}

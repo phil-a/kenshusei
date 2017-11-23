@@ -20,7 +20,7 @@ defmodule Kenshusei.Mixfile do
   def application do
     [
       mod: {Kenshusei.Application, []},
-      extra_applications: [:logger, :runtime_tools, :recaptcha]
+      extra_applications: [:logger, :runtime_tools, :recaptcha, :coherence]
     ]
   end
 
@@ -43,7 +43,8 @@ defmodule Kenshusei.Mixfile do
       {:cowboy, "~> 1.0"},
       {:bamboo, "~> 0.8"},
       {:hackney, "~> 1.8", override: true},
-      {:recaptcha, "~> 2.2"}
+      {:recaptcha, "~> 2.2"},
+      {:coherence, "~> 0.5"}
     ]
   end
 

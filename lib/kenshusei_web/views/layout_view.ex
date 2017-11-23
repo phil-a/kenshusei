@@ -9,6 +9,6 @@ defmodule KenshuseiWeb.LayoutView do
   def render_title(["jujitsu"]), do: "Kenshusei - Aiki Jujitsu"
   def render_title(["taichi"]), do: "Kenshusei - Tai Chi Chuan"
   def render_title(["advanced"]), do: "Kenshusei - Advanced Training"
-  def render_title([_]), do: "Kenshusei Martial Arts"
+  def render_title(_), do: "Kenshusei Martial Arts"
 
 end

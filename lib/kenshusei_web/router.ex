@@ -1,5 +1,6 @@
 defmodule KenshuseiWeb.Router do
   use KenshuseiWeb, :router
+  use Coherence.Router
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -7,6 +8,26 @@ defmodule KenshuseiWeb.Router do
     plug :fetch_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug Coherence.Authentication.Session
+  end
+
+  pipeline :protected do
+    plug :accepts, ["html"]
+    plug :fetch_session
+    plug :fetch_flash
+    plug :protect_from_forgery
+    plug :put_secure_browser_headers
+    plug Coherence.Authentication.Session, protected: true
+  end
+
+  scope "/" do
+    pipe_through :browser
+    coherence_routes()
+  end
+
+  scope "/" do
+    pipe_through :protected
+    coherence_routes :protected
   end
 
   pipeline :api do
@@ -25,6 +46,12 @@ defmodule KenshuseiWeb.Router do
     get "/taichi", PageController, :taichi
     get "/advanced", PageController, :advanced
     resources "/form_submissions", FormSubmissionController, only: [:create]
+  end
+
+
+  scope "/", MyProjectWeb do
+    pipe_through :protected
+
   end
 
   # Other scopes may use custom stacks.
