@@ -12,5 +12,9 @@
 
 Kenshusei.Repo.delete_all Kenshusei.Coherence.User
 
-Kenshusei.Coherence.User.changeset(%Kenshusei.Coherence.User{}, %{name: "Test User", email: "testuser@example.com", password: "secret", password_confirmation: "secret"})
+role = %Kenshusei.Authorization.Role{}
+|> Kenshusei.Authorization.Role.changeset(%{name: "Admin Role", admin: true})
+|> Kenshusei.Repo.insert!
+
+Kenshusei.Coherence.User.changeset(%Kenshusei.Coherence.User{}, %{name: "Admin", email: "admin@example.com", password: "secret", password_confirmation: "secret", role_id: role.id})
 |> Kenshusei.Repo.insert!
