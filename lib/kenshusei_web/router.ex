@@ -49,7 +49,7 @@ defmodule KenshuseiWeb.Router do
   end
 
 
-  scope "/", MyProjectWeb do
+  scope "/", KenshuseiWeb do
     pipe_through :protected
 
   end
