@@ -3,14 +3,24 @@
             <div class="page-header-image" data-parallax="true" style="background-image: url('<%= static_path(@conn, "/images/dojo.jpg") %>'); transform: translate3d(0px, 0px, 0px);">
             </div>
             <div class="header-content container">
-                <div class="content-center">
-                    <h1 class="title kungfu">KENSHUSEI MARTIAL ARTS
-                    <br>
-                    <small class="title kungfu">Zen Warrior</small>
-                    </h1>
-                    
-                    <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
-                    <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
+                <div class="row main-header-row">
+                    <div class="col-md-3 d-none d-md-block" data-aos="fade-left">
+                        <img src="<%= static_path(@conn, "/images/zen2-5x7.png") %>">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-center">
+                            <h1 class="title kungfu">KENSHUSEI MARTIAL ARTS
+                            <br>
+                            <small class="title kungfu">Zen Warrior</small>
+                            </h1>
+                            
+                            <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
+                            <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-md-block" data-aos="fade-right">
+                        <img src="<%= static_path(@conn, "/images/zen1-5x7.png") %>">
+                    </div>
                 </div>
             </div>
         </div>
@@ -369,7 +379,7 @@
                                     <h4 class="info-title">Give us a call</h4>
                                     <p class="description"> Master Teacher
                                         <br> <a class="text" href="tel:9057607679">905-760-7679</a>
-                                        <br> Mon - Sun, 8:00-22:00
+                                        <br> Mon - Sun, 8:00 A.M. - 10:00 P.M.
                                     </p>
                                 </div>
                             </div>

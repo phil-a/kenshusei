@@ -92,7 +92,7 @@
             </div>
             <div class="col-md-6">
                 <div class="image-container" data-aos="fade-up">
-                    <img src="<%= static_path(@conn, "/images/zen-circle-white.png") %>" alt="">
+                    <img src="<%= static_path(@conn, "/images/crest.png") %>" alt="">
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
           <div class="card">
             <div class="card-image parent">
             
-              <img src="<%= static_path(@conn, "/images/taichi-h1.jpg") %>" class="child rounded" alt="">
+              <img src="<%= static_path(@conn, "/images/k2.jpg") %>" class="child rounded" alt="">
             </div>
             <div class="info text-center">
               <h4 class="info-title">Respect</h4>
@@ -132,7 +132,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-image">
-              <img src="<%= static_path(@conn, "/images/integrity.jpg") %>" class="rounded" alt="">
+              <img src="<%= static_path(@conn, "/images/aiki3.jpg") %>" class="rounded" alt="">
             </div>
             <div class="info text-center">
               <h4 class="info-title">Integrity</h4>
@@ -143,7 +143,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-image">
-              <img src="<%= static_path(@conn, "/images/IMG_20150329_0009.jpg") %>" class="rounded" alt="">
+              <img src="<%= static_path(@conn, "/images/kp2modded.jpg") %>" class="rounded" alt="">
             </div>
             <div class="info text-center">
               <h4 class="info-title">

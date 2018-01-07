@@ -50,6 +50,16 @@
 
 #index-page {
 
+    .main-header-row {
+        padding-top: 220px;
+    }
+
+    @media screen and (max-width: 767px) {
+        .main-header-row {
+            padding-top: 380px;
+        }
+    }
+
     .discipline-list {
         padding: 0;
         background-color: rgba(0, 0, 0, 0.6);

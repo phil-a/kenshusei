@@ -47,15 +47,15 @@
     }
 
     .features-7 .image-container {
-        height: 250px;
+        height: 400px;
     }
 
     @media screen and (max-width: 767px) {
         .features-7 .image-container img {
             display: block;
             margin: auto;
-            max-height: 140px;
-            max-width: 140px;
+            max-height: 200px;
+            max-width: 200px;
         }
     }
     .features-7:after {
