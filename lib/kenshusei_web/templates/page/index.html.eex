@@ -4,21 +4,27 @@
             </div>
             <div class="header-content container">
                 <div class="row main-header-row">
-                    <div class="col-md-3 d-none d-md-block" data-aos="fade-left">
+                    <div class="col-md-2 d-none d-md-block" data-aos="fade-left">
                         <img src="<%= static_path(@conn, "/images/zen2-5x7.png") %>">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <div class="content-center">
-                            <h1 class="title kungfu">KENSHUSEI MARTIAL ARTS
-                            <br>
-                            <small class="title kungfu">Zen Warrior</small>
+                            <h1 class="title kungfu" style="margin-top: 100px;">KENSHUSEI MARTIAL ARTS
+                                <br>
+                                <small class="title kungfu">Zen Warrior</small>
                             </h1>
-                            
-                            <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" />
-                            <h2 class="title">The supreme art of war is to subdue the enemy without fighting.</h2>
+                            <a href="/#section-contact-us">
+                            <img class="blur-to-white paused" style="width: 275px; height: 275px;" src="<%= static_path(@conn, "/images/sale-star.png") %>" />
+                            <!-- <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" /> -->
+                            <h3 class="title blur-to-white paused" style="font-weight: 500;">For a <b>limited time</b> get half off the regular membership price when you sign up for classes.</h3>
+                            <h5 class="title blur-to-white paused"></h5>
+                            </a>
+                            <a id="contact-button" class="btn btn-simple btn-neutral" href="/#section-contact-us">
+                                Find out more
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 d-none d-md-block" data-aos="fade-right">
+                    <div class="col-md-2 d-none d-md-block" data-aos="fade-right">
                         <img src="<%= static_path(@conn, "/images/zen1-5x7.png") %>">
                     </div>
                 </div>
@@ -28,19 +34,19 @@
         <div class="discipline-list">
             <div class="card-header" style="">
                 <ul class="disciplines nav nav-tabs nav-tabs-primaryy justify-content-center" role="tablist" data-background-color="orange">
-                    <li class="nav-item rellax" data-rellax-speed="0.5" data-rellax-percentage="0.5">
+                    <li class="nav-item">
                         <a class="nav-link active" href="/karate" role="tab" aria-expanded="true">Junior Karate</a>
                     </li>
-                    <li class="nav-item rellax" data-rellax-speed="0.5" data-rellax-percentage="0.5">
+                    <li class="nav-item">
                         <a class="nav-link active" href="/kempo" role="tab" aria-expanded="false">Shaolin Kempo</a>
                     </li>
-                    <li class="nav-item rellax" data-rellax-speed="0.5" data-rellax-percentage="0.5">
+                    <li class="nav-item">
                         <a class="nav-link active" href="/jujitsu" role="tab" aria-expanded="false">Aiki Ju-Jitsu</a>
                     </li>
-                    <li class="nav-item rellax" data-rellax-speed="0.5" data-rellax-percentage="0.5">
+                    <li class="nav-item">
                         <a class="nav-link active" href="/taichi" role="tab" aria-expanded="false">Tai Chi Chuan</a>
                     </li>
-                    <li class="nav-item rellax" data-rellax-speed="0.5" data-rellax-percentage="0.5">
+                    <li class="nav-item">
                         <a class="nav-link active" href="/advanced" role="tab" aria-expanded="false">Advanced Weapons</a>
                     </li>
                 </ul>
