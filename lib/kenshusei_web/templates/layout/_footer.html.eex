@@ -21,7 +21,7 @@
                 </nav>
                 <div class="copyright">
                     ©
-                    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script>
+                    <script>
                         document.write(new Date().getFullYear())
                     </script>
                     <a href="http://www.kenshuseimartialarts.com" target="_blank">Kenshusei Martial Arts</a>.
