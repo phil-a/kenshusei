@@ -7,6 +7,7 @@
                     <div class="col-md-2 d-none d-md-block" data-aos="fade-left">
                         <img src="<%= static_path(@conn, "/images/zen2-5x7.png") %>">
                     </div>
+                    
                     <div class="col-md-8">
                         <div class="content-center">
                             <h1 class="title kungfu" style="margin-top: 100px; display: none;">KENSHUSEI MARTIAL ARTS
@@ -19,30 +20,33 @@
                     <div class="col-md-2 d-none d-md-block" data-aos="fade-right">
                         <img src="<%= static_path(@conn, "/images/zen1-5x7.png") %>">
                     </div>
+
+                    <div class="discipline-list col-md-12" style="z-index: 1;">
+                        <div class="card-header" style="">
+                            <ul class="disciplines nav nav-tabs nav-tabs-primaryy justify-content-center" role="tablist" data-background-color="orange">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/karate" role="tab" aria-expanded="true">Junior Karate</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/kempo" role="tab" aria-expanded="false">Shaolin Kempo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/jujitsu" role="tab" aria-expanded="false">Aiki Ju-Jitsu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/taichi" role="tab" aria-expanded="false">Tai Chi Chuan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/advanced" role="tab" aria-expanded="false">Advanced Weapons</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
+                
             </div>
-        </div>
-        
-        <div class="discipline-list">
-            <div class="card-header" style="">
-                <ul class="disciplines nav nav-tabs nav-tabs-primaryy justify-content-center" role="tablist" data-background-color="orange">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/karate" role="tab" aria-expanded="true">Junior Karate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/kempo" role="tab" aria-expanded="false">Shaolin Kempo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/jujitsu" role="tab" aria-expanded="false">Aiki Ju-Jitsu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/taichi" role="tab" aria-expanded="false">Tai Chi Chuan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/advanced" role="tab" aria-expanded="false">Advanced Weapons</a>
-                    </li>
-                </ul>
-            </div>
+            
         </div>
 
        <div class="section features-6">

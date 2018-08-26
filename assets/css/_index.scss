@@ -17,9 +17,9 @@
 }
 
 @keyframes blur-to-white {
-    0%   {-webkit-filter: blur(30px)}
-    50%  {-webkit-filter: blur(8px)}
-    100% {-webkit-filter: blur(0px)}
+    0%   {-webkit-filter: blur(50px) brightness(100%);}
+    50%  {-webkit-filter: blur(8px) brightness(600%);}
+    100% {-webkit-filter: blur(0px) brightness(100%);}
 }
   
 .blur-to-white {
@@ -62,11 +62,21 @@
 
     .discipline-list {
         padding: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        margin-top: 80px;
+        //background-color: rgba(0, 0, 0, 0.6);
     }
 
     .disciplines {
         background-color: transparent;
+        .nav-item {
+            margin-bottom: 5px;
+            .nav-link {
+                background-color: transparent;
+                color: white !important;
+                border-color: white;
+                border-radius: 2px;
+            }
+        }
     }
 
     .nav-tabs > .nav-item > .nav-link.active:hover {
