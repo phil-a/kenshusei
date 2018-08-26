@@ -9,19 +9,11 @@
                     </div>
                     <div class="col-md-8">
                         <div class="content-center">
-                            <h1 class="title kungfu" style="margin-top: 100px;">KENSHUSEI MARTIAL ARTS
+                            <h1 class="title kungfu" style="margin-top: 100px; display: none;">KENSHUSEI MARTIAL ARTS
                                 <br>
                                 <small class="title kungfu">Zen Warrior</small>
                             </h1>
-                            <a href="/#section-contact-us">
-                            <img class="blur-to-white paused" style="width: 275px; height: 275px;" src="<%= static_path(@conn, "/images/sale-star.png") %>" />
-                            <!-- <img class="blur-to-white paused" style="width: 200px; height: 200px;" src="<%= static_path(@conn, "/images/zen-circle-gold.png") %>" /> -->
-                            <h3 class="title blur-to-white paused" style="font-weight: 500;">For a <b>limited time</b> get half off the regular membership price when you sign up for classes.</h3>
-                            <h5 class="title blur-to-white paused"></h5>
-                            </a>
-                            <a id="contact-button" class="btn btn-simple btn-neutral" href="/#section-contact-us">
-                                Find out more
-                            </a>
+                            <img class="blur-to-white paused" style="width: 831px; height: 158px;" src="<%= static_path(@conn, "/images/ZW_Frontage.png") %>" />
                         </div>
                     </div>
                     <div class="col-md-2 d-none d-md-block" data-aos="fade-right">
