@@ -15,7 +15,7 @@
                                 <small class="title kungfu">Zen Warrior</small>
                             </h1>
                             <img class="" data-aos="flip-down" data-aos-easing="ease-out-cubic"style="width: 831px; height: 158px;" src="<%= static_path(@conn, "/images/ZW_Frontage.png") %>" />
-                            <img class="" data-aos="flip-up" data-aos-easing="ease-out-cubic" style="width: 831px; height: 158px;" src="<%= static_path(@conn, "/images/ZW_sale.png") %>" />
+                            <!-- <img class="" data-aos="flip-up" data-aos-easing="ease-out-cubic" style="width: 831px; height: 158px;" src="<%= static_path(@conn, "/images/ZW_sale.png") %>" /> -->
                         </div>
                     </div>
                     <div class="col-md-2 d-none d-md-block" data-aos="fade-right">
