@@ -363,7 +363,7 @@
                             <h2 class="title text-center">Get in Touch</h2>
                             <h4 class="description text-center">The best way to reach us is by telephone and to make an appointment with the master teacher.</h4>
                             <div class="row mx-auto justify-content-center align-items-center flex-column ">
-                                <a class="col-6 btn btn-primary no-border text-center" style="font-size: 2.00rem; font-weight: bold;" href="tel:9057607679">(905)-760-7679</a>
+                                <a class="col-sm-8 col-md-6 btn btn-primary no-border text-center" style="font-size: 2.00rem; font-weight: bold;" href="tel:9057607679">(905)-760-7679</a>
                             
                             <div class="info">
                                 <div class="icon icon-primary">
