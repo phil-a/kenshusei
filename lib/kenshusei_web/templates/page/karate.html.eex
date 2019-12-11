@@ -2,7 +2,7 @@
 <div class="carousel slide">
   <div class="carousel-inner">
     <div class="page-header header-filter">
-      <div class="page-header-image" style="background-image: url('<%= static_path(@conn, "/images/karate2.jpg") %>');">
+      <div class="page-header-image" style="background-image: url('https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/karate2.jpg")');">
       </div>
       <div class="content-center">
         <div class="container text-left">
@@ -31,7 +31,7 @@
         <h2 class="title">You will develop</h2>
           <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <img src="<%= static_path(@conn, "/images/019-psychology-1.svg") %>">
+              <img src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/019-psychology-1.svg">
               <%# <i class="flaticon-emotions flaticon-small"></i> %>
             </div>
             <div class="description">
@@ -41,7 +41,7 @@
           </div>
           <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
-              <img src="<%= static_path(@conn, "/images/011-dumbbell.svg") %>">
+              <img src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/011-dumbbell.svg">
             </div>
             <div class="description">
               <h4 class="info-title">
@@ -55,7 +55,7 @@
           <div class="info info-horizontal hover-animation">
             <div class="icon icon-primary icon-circle">
               <%# <i class="now-ui-icons ui-2_time-alarm"></i> %>
-              <img src="<%= static_path(@conn, "/images/024-conversation.svg") %>">
+              <img src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/024-conversation.svg">
             </div>
             <div class="description">
               <h4 class="info-title">More Confidence</h4>
@@ -67,7 +67,7 @@
       <div class="col-md-5">
         <div class="tablet-container">
           <div data-aos="fade-left">
-            <img src="<%= static_path(@conn, "/images/Zen2.png") %>">
+            <img src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/Zen2.png">
           </div>
         </div>
       </div>
@@ -87,13 +87,13 @@
       <div class="col-md-6 col-lg-4">
           <div class="card card-blog">
               <div class="card-image">
-                  <img class="img rounded" src="<%= static_path(@conn, "/images/k1.jpg") %>">
+                  <img class="img rounded" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/k1.jpg">
               </div>
           </div>
           
           <div class="card card-blog">
               <div class="card-image">
-                  <img class="img rounded" src="<%= static_path(@conn, "/images/k2.jpg") %>">
+                  <img class="img rounded" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/k2.jpg">
               </div>
           </div>
       </div>
@@ -113,19 +113,19 @@
         </div>
         <div class="card card-blog">
           <div class="card-image">
-            <img class="img rounded" src="<%= static_path(@conn, "/images/k3.jpg") %>">
+            <img class="img rounded" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/k3.jpg">
           </div>
         </div>
       </div>
       <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0">
         <div class="card card-blog">
           <div class="card-image">
-            <img class="img rounded" src="<%= static_path(@conn, "/images/k5.jpg") %>">
+            <img class="img rounded" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/k5.jpg">
           </div>
         </div>
         <div class="card card-blog">
           <div class="card-image">
-            <img class="img rounded" src="<%= static_path(@conn, "/images/k4.jpg") %>">
+            <img class="img rounded" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/k4.jpg">
           </div>
         </div>
       </div>
@@ -138,7 +138,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 px-0">
-        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/training2.jpg") %>')">
+        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/training2.jpg')">
           <div class="card-block">
             <h6 class="category">Shaolin Kempo</h6>
             <h3 class="card-title">
@@ -154,7 +154,7 @@
         </div>
       </div>
       <div class="col-md-6 px-0">
-        <div class="card card-raised card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/jujitsu-h2.jpg") %>')">
+        <div class="card card-raised card-background card-background-product card-no-shadow" style="background-image: url('https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/jujitsu-h2.jpg')">
           <div class="card-block">
             <h6 class="category">Aiki Ju-jitsu</h6>
             <h3 class="card-title">Aiki Ju-jitsu</h3>
@@ -168,7 +168,7 @@
         </div>
       </div>
       <div class="col-md-6 px-0">
-        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/taichi-h1.jpg") %>')">
+        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/taichi-h1.jpg')">
           <div class="card-block">
             <h6 class="category">Tai Chi Chuan</h6>
             <h3 class="card-title">Tai Chi Chuan</h3>
@@ -182,7 +182,7 @@
         </div>
       </div>
       <div class="col-md-6 px-0">
-        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('<%= static_path(@conn, "/images/advanced-h1.jpg") %>')">
+        <div class="card card-background card-background-product card-no-shadow" style="background-image: url('https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/advanced-h1.jpg')">
           <div class="card-block">
             <h6 class="category">Advanced Training</h6>
             <h3 class="card-title">Advanced Training</h3>
