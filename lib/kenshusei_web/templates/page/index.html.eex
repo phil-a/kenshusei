@@ -10,11 +10,11 @@
                     
                     <div class="col-md-8">
                         <div class="content-center">
-                            <h1 class="title kungfu" style="margin-top: 100px; display: none;">KENSHUSEI MARTIAL ARTS
+                            <h1 class="title kungfu" style="margin-top: 100px; display: none;">ZEN WARRIOR MARTIAL ARTS
                                 <br>
                                 <small class="title kungfu">Zen Warrior</small>
                             </h1>
-                            <img class="" data-aos="flip-down" data-aos-easing="ease-out-cubic"style="width: 831px; height: 158px;" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/ZW_Frontage.png" />
+                            <img class="blur" data-aos="flip-down" data-aos-easing="ease-out-cubic"style="width: 631px; height: 158px;" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/Zen_Warrior_Letterhead_White.png" />
                             <!-- <img class="" data-aos="flip-up" data-aos-easing="ease-out-cubic" style="width: 831px; height: 158px;" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/ZW_sale.png" /> -->
                         </div>
                     </div>
@@ -257,7 +257,7 @@
                                               <img class="img rounded" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/quote.png">
                                             </div>
                                             <div class="card-block">
-                                                <h5 class="card-description">"Previously my sons were  placed in another local Karate school but those classes often had more than 20 young children being taught by only one senior student. Those classes provided very poor guidance to the students and little discipline. At Kenshusei, the personal and individual attention devoted to my children's learning is reflected in their noticeable progress."
+                                                <h5 class="card-description">"Previously my sons were  placed in another local Karate school but those classes often had more than 20 young children being taught by only one senior student. Those classes provided very poor guidance to the students and little discipline. At Zen Warrior Martial Arts, the personal and individual attention devoted to my children's learning is reflected in their noticeable progress."
                                                 </h5>                                                
                                                 <h3 class="card-title">Raphael Sumabat</h3>
                                                 <div class="card-footer">
@@ -272,7 +272,7 @@
                                               <img class="img rounded" src="https://kenshusei-martial-arts.s3-us-west-2.amazonaws.com/images/quote.png">
                                             </div>
                                             <div class="card-block">
-                                                <h5 class="card-description">"In a short period of time at Kenshusei, it was apparent that they [our children] had learned more discipline, self control, new techniques, and have become much more dedicated about attending classes. The strong motivation in the classes has given them increased self confidence, allowing them to achieve their goals as students much more quickly than they would have."
+                                                <h5 class="card-description">"In a short period of time at Zen Warrior, it was apparent that they [our children] had learned more discipline, self control, new techniques, and have become much more dedicated about attending classes. The strong motivation in the classes has given them increased self confidence, allowing them to achieve their goals as students much more quickly than they would have."
                                                 </h5>
                                                 <h3 class="card-title">Massimo Lanna & Paola Braybrook</h3>
                                                 <div class="card-footer">
@@ -816,7 +816,7 @@
       var contentString = 
       `<div id="content">
           <div id="siteNotice"></div>
-      <h3 id="mapHeading" class="firstHeading">Kenshusei Martial Arts</h3>
+      <h3 id="mapHeading" class="firstHeading">Zen Warrior Martial Arts</h3>
       <div id="mapBody">
       <p>
         644 Millway Ave, Unit 2<br> Concord, ON<br> L4K 4H4<br>
@@ -833,7 +833,7 @@
         var marker = new google.maps.Marker({
       position: kenshuseiLatLng,
       map: map,
-      title: 'Kenshusei Martials Arts'
+      title: 'Zen Warrior Martials Arts'
     });
 
     marker.addListener('click', function() {
