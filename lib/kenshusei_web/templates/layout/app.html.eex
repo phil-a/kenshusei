@@ -80,13 +80,13 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/pg/ZenWarriorMartialArts" target="_blank" data-original-title="Like us on Facebook">
+                      <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/ZenWarriorMartialArts" target="_blank" data-original-title="Like us on Facebook">
                           <i class="fa fa-facebook-square"></i>
                           <p class="d-lg-none d-xl-none">Facebook</p>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/zenwarrior_kenshuseimartialart/" target="_blank" data-original-title="Follow us on Instagram">
+                      <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/zenwarriormartialarts/" target="_blank" data-original-title="Follow us on Instagram">
                           <i class="fa fa-instagram"></i>
                           <p class="d-lg-none d-xl-none">Instagram</p>
                       </a>
